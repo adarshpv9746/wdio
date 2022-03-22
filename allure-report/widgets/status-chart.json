@@ -1,0 +1,51 @@
+[ {
+  "uid" : "e01db5d70702816",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1647938560759,
+    "stop" : 1647938566630,
+    "duration" : 5871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8592eeac23e6df0",
+  "name" : "Add a practice",
+  "time" : {
+    "start" : 1647938569617,
+    "stop" : 1647938588008,
+    "duration" : 18391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d83bc603b604ec",
+  "name" : "navigate to practice management",
+  "time" : {
+    "start" : 1647938566631,
+    "stop" : 1647938569615,
+    "duration" : 2984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e37d999797e848d",
+  "name" : "navigate to practice management",
+  "time" : {
+    "start" : 1647931077159,
+    "stop" : 1647931102468,
+    "duration" : 25309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1a5896fee795bf9",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1647931061084,
+    "stop" : 1647931077158,
+    "duration" : 16074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

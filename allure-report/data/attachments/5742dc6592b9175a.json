@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//img[@alt='menu-icon']\"}\n  (Session info: chrome=99.0.4844.74)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x01069943+2595139]\n\tOrdinal0 [0x00FFC9F1+2148849]\n\tOrdinal0 [0x00EF4528+1066280]\n\tOrdinal0 [0x00F20FD4+1249236]\n\tOrdinal0 [0x00F211CB+1249739]\n\tOrdinal0 [0x00F4D812+1431570]\n\tOrdinal0 [0x00F3BA34+1358388]\n\tOrdinal0 [0x00F4BAF2+1424114]\n\tOrdinal0 [0x00F3B806+1357830]\n\tOrdinal0 [0x00F16086+1204358]\n\tOrdinal0 [0x00F16F96+1208214]\n\tGetHandleVerifier [0x0120B232+1658114]\n\tGetHandleVerifier [0x012C312C+2411516]\n\tGetHandleVerifier [0x010FF261+560433]\n\tGetHandleVerifier [0x010FE366+556598]\n\tOrdinal0 [0x0100286B+2173035]\n\tOrdinal0 [0x010075F8+2192888]\n\tOrdinal0 [0x010076E5+2193125]\n\tOrdinal0 [0x010111FC+2232828]\n\tBaseThreadInitThunk [0x758EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A4E+238]\n"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//mdl-select[@name='state_id']//input[@class='mdl-textfield__input']"
+}

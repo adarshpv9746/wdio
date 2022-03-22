@@ -1,0 +1,98 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "c1a5896fee795bf9",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647931061084,
+        "stop" : 1647931077158,
+        "duration" : 16074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "7e37d999797e848d",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647931077159,
+        "stop" : 1647931102468,
+        "duration" : 25309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  }, {
+    "name" : "orthocatapult",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "e01db5d70702816",
+      "parentUid" : "a51daae4ef8d284d47449a540d3e0fb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938560759,
+        "stop" : 1647938566630,
+        "duration" : 5871
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "c7d83bc603b604ec",
+      "parentUid" : "a51daae4ef8d284d47449a540d3e0fb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938566631,
+        "stop" : 1647938569615,
+        "duration" : 2984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "e8592eeac23e6df0",
+      "parentUid" : "a51daae4ef8d284d47449a540d3e0fb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938569617,
+        "stop" : 1647938588008,
+        "duration" : 18391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    } ],
+    "uid" : "a51daae4ef8d284d47449a540d3e0fb6"
+  } ]
+}

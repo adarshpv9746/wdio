@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@name='gp_gallery_enabled']"
+}
