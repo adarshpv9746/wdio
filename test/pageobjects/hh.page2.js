@@ -8,11 +8,11 @@ class hhtwo {
     get rlname () {return $("[formcontrolname='rp_last_name'] [placeholder]");}
 
     get relation () {return $("[formcontrolname='rp_relation'] [placeholder]");}
-    get relation1 () {return $("[formcontrolname='rp_relation'] [placeholder]");}
+    get relation1 () {return $("//mdl-option[2]//div[@class='mdl-list__item-primary-content']");}
 
     get ssnumber () {return $("[formcontrolname='rp_ssn'] [placeholder]");}
 
-    get dob () {return $(".info-form[_ngcontent-lmn-c5] > div:nth-of-type(2) [src='/patient-ui/assets/calendar.75c9247867694e117bcc5aa8381e33da.svg']");}
+    get dob () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[2]/form/guardian-info/section/div[1]/form/div[2]/div[3]/div/mdl-textfield/div/input");}
     get dobset () {return $(".mbsc-fr-btn1");}
     
     get staddr () {return $("[formcontrolname='rp_addr'] [placeholder]");}
@@ -30,7 +30,7 @@ class hhtwo {
     get email () {return $("[formcontrolname='rp_email'] [placeholder]");}
     get employer () {return $("[formcontrolname='rp_employer'] [placeholder]");}
     get occupation () {return $("[formcontrolname='rp_occupation'] [placeholder]");}
-    get next () {return $(".mat-primary[_ngcontent-lmn-c5] > .mat-button-wrapper");}
+    get next () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[2]/form/guardian-info/section/div[2]/button[2]");}
 
     async two () {
         await this.rfname.setValue("testing");

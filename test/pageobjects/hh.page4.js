@@ -3,7 +3,7 @@
 
 class hhfour {
     //HH form page 4 elements
-    get dentalinsr () {return $("[value='Yes'][formcontrolname='hasPrimaryInsurance'] > .mdl-radio__ripple-container");}
+    get dentalinsr () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[4]/form/insurance-information/section/div[1]/form/div[1]/div/div/div/div[1]/mdl-radio/span[4]");}
 
     get plan () {return $("[formcontrolname='insurance_plan'] [placeholder]");}
     get plan1 () {return $("#insurance_plan_dropdown > a:nth-of-type(2)");}
@@ -36,16 +36,16 @@ class hhfour {
     get lname () {return $("[formcontrolname='insurance_ph_last_name'] [placeholder]");}
     get ssnmbr () {return $("[formcontrolname='insurance_ph_ssn'] [placeholder]");}
 
-    get dob () {return $("[ng-reflect-model][max='2022-03-28T11:52:32.715Z']");}
+    get dob () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[4]/form/insurance-information/section/div[1]/form/div[2]/div[8]/div[2]/div/mdl-textfield/div/input");}
     get dobset () {return $(".mbsc-fr-btn1");}
 
     get emplyer () {return $("[formcontrolname='insurance_ph_employer'] [placeholder]");}
-    get enmbr () {return $("[formcontrolname='insurance_ph_work_phone'] [placeholder]");}
+    get enmbr () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[4]/form/insurance-information/section/div[1]/form/div[2]/div[9]/div[2]/div/mdl-textfield/div/input");}
     get copay () {return $("[formcontrolname='insurance_ph_co_pay'] [placeholder]");}
     get deductible () {return $("[formcontrolname='insurance_ph_deductible'] [placeholder]");}
 
-    get addinsure () {return $(".is-checked[formcontrolname='hasSecondaryInsurance'] > .mdl-radio__ripple-container");}
-    get next () {return $(".mat-primary[_ngcontent-lmn-c7] > .mat-button-wrapper");}
+    get addinsure () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[4]/form/insurance-information/section/div[1]/form/div[2]/div[11]/div/div/div/div[2]/mdl-radio/span[4]");}
+    get next () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[4]/form/insurance-information/section/div[2]/button[2]");}
 
     async four () {
         await this.dentalinsr.click();
@@ -82,7 +82,7 @@ class hhfour {
         await this.dobset.click();
 
         await this.emplyer.setValue("testing");
-        await this.enmbr.click();
+        await this.enmbr.setValue('9999999999');
         await this.copay.setValue("435");
         await this.deductible.setValue("554");
 

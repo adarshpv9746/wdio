@@ -16,13 +16,13 @@ class hhone {
     get country () {return $("[formcontrolname='country'] [placeholder]");}
     get country1 () {return $("mdl-option:nth-of-type(1) .mdl-list__item-primary-content");}
 
-    get dob () {return $("[_ngcontent-ovj-c4][src='/patient-ui/assets/calendar.75c9247867694e117bcc5aa8381e33da.svg']");}
+    get dob () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[1]/form/patient-information/section/div[1]/form/div[4]/div[2]/div/img");}
     get dobset () {return $(".mbsc-fr-btn1");}
 
-    get school () {return $("#mdl-textfield-94");}
+    get school () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[1]/form/patient-information/section/div[1]/form/div[5]/div[2]/div/div/mdl-textfield/div/input");}
     get resides () {return $("[ng-reflect-name='resides_with_father'] > .mdl-checkbox__ripple-container");}
     
-    get next () {return $(".mat-flat-button[_ngcontent-lmn-c4]");}
+    get next () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[1]/form/patient-information/section/div[2]/button");}
 
     async one () {
         

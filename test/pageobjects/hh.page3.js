@@ -24,7 +24,7 @@ class hhthree {
     get childrelation () {return $("[formcontrolname='person_relation'] [placeholder]");}
     get childrelation1 () {return $("[ng-reflect-value='grandparent'] > .mdl-list__item");}
 
-    get next () {return $(".mat-primary[_ngcontent-lmn-c6] > .mat-button-wrapper");}
+    get next () {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[3]/form/emergency-contact/section/div[2]/button[2]");}
 
     async three () {
         await this.ecname.setValue("testing");

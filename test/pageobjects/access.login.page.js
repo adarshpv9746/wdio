@@ -8,8 +8,8 @@ class Accessportal {
     get btnSubmit () {return $(".primary");}
     get mbsc() { return $("div:nth-of-type(41)"); }
 
-    async login () {
-        await this.inputlastdigit.setValue("1111");
+    async login (num) {
+        await this.inputlastdigit.setValue(num);
         await this.checkbox.click();
         await this.inputdob.click();
         await this.mbsc.click();

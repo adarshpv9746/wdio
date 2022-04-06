@@ -1,6 +1,5 @@
 //////////  PAGE 5  ///////////
 
-
 class hhfive {
     //HH form page 5 elements
     get dentist() {return $("[formcontrolname='dentist'] [placeholder]"); }
@@ -8,7 +7,7 @@ class hhfive {
     get last_visit() {return $("[formcontrolname='dentist_last_visit'] [placeholder]"); }
     get last_visit1() {return $(".mbsc-fr-btn1"); }
 
-    get next_visit() {return $("[min='2022-03-28T11:52:32.717Z']"); }
+    get next_visit() {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[5]/form/dental-history/section/div[1]/form/div[1]/div[3]/div/mdl-textfield/div/input"); }
     get next_visit1() {return $(".mbsc-fr-btn1"); }
 
     get family_friend() {return $("[value='Family or Friend'] > .mdl-radio__ripple-container"); }
@@ -18,7 +17,7 @@ class hhfive {
     get parent_concern() {return $("[formcontrolname='parents_concerns_about_orthodontics'] [placeholder]"); }
     get child_concern() {return $("[formcontrolname='concerns_about_orthodontics'] [placeholder]"); }
 
-    get visited_orthodontist() {return $(".is-checked[formcontrolname='have_visited_orthodontist'] > .mdl-radio__ripple-container"); }
+    get visited_orthodontist() {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[5]/form/dental-history/section/div[1]/form/div[5]/div[1]/div/div[1]/mdl-radio/span[1]"); }
     get visited_date() {return $("[formcontrolname='orthodontist_visited_when'] [placeholder]"); }
     get visited_date1() {return $(".mbsc-fr-btn1"); }
     get reason() {return $("[ng-reflect-maxlength='84'][placeholder]"); }
@@ -56,6 +55,8 @@ class hhfive {
         await this.parent_concern.setValue("testing");
         await this.child_concern.setValue("testing");
 
+        //await this.adenoids.scrollIntoView();
+        await $("//p[contains(.,'Has your child visited an orthodontist before?*')]").scrollIntoView();
         await this.visited_orthodontist.click();
         await this.visited_date.click();
         await this.visited_date1.click();
