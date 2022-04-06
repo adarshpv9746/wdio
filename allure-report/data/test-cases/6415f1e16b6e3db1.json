@@ -1,0 +1,231 @@
+{
+  "uid" : "6415f1e16b6e3db1",
+  "name" : "Complete signing the docusign contract",
+  "fullName" : "orthocatapult.Complete signing the docusign contract",
+  "historyId" : "edf396437d1f21374cd02c334c33aa01",
+  "time" : {
+    "start" : 1647950620858,
+    "stop" : 1647950630913,
+    "duration" : 10055
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//mdl-button[@class='primary mdl-button ng-star-inserted']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//mdl-button[@class='primary mdl-button ng-star-inserted']\" because element wasn't found\n                    at implicitWait (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async activate.act (F:\\macking\\testing\\wdio\\test\\pageobjects\\docusign.page.js:25:9)\n                    at async Context.<anonymous> (F:\\macking\\testing\\wdio\\test\\specs\\example.e2e.js:33:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"//mdl-button[@class='primary mdl-button ng-star-inserted']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"//mdl-button[@class='primary mdl-button ng-star-inserted']\" because element wasn't found\n                    at implicitWait (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async activate.act (F:\\macking\\testing\\wdio\\test\\pageobjects\\docusign.page.js:25:9)\n                    at async Context.<anonymous> (F:\\macking\\testing\\wdio\\test\\specs\\example.e2e.js:33:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647950620859,
+        "stop" : 1647950620889,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/url",
+        "time" : {
+          "start" : 1647950620866,
+          "stop" : 1647950620880,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d90d5746bc4a9f1b",
+          "name" : "Response",
+          "source" : "d90d5746bc4a9f1b.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "a922339ea38c6833",
+        "name" : "Request",
+        "source" : "a922339ea38c6833.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "13dd229513c00368",
+        "name" : "Response",
+        "source" : "13dd229513c00368.json",
+        "type" : "application/json",
+        "size" : 48
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647950620912,
+        "stop" : 1647950620954,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8c45e0c0ce72e60",
+        "name" : "Request",
+        "source" : "e8c45e0c0ce72e60.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "a11143fb00d207d9",
+        "name" : "Response",
+        "source" : "a11143fb00d207d9.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647950621412,
+        "stop" : 1647950621428,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23d094a2a625a4aa",
+        "name" : "Request",
+        "source" : "23d094a2a625a4aa.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "2907aed7e65ba110",
+        "name" : "Response",
+        "source" : "2907aed7e65ba110.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647950621912,
+        "stop" : 1647950621935,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd32d4ecab41fbf",
+        "name" : "Request",
+        "source" : "fd32d4ecab41fbf.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "f91aca5fdbd0d513",
+        "name" : "Response",
+        "source" : "f91aca5fdbd0d513.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1647950622414,
+        "stop" : 1647950630913,
+        "duration" : 8499
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call click on element with selector \"//mdl-button[@class='primary mdl-button ng-star-inserted']\" because element wasn't found\n                    at implicitWait (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async activate.act (F:\\macking\\testing\\wdio\\test\\pageobjects\\docusign.page.js:25:9)\n                    at async Context.<anonymous> (F:\\macking\\testing\\wdio\\test\\specs\\example.e2e.js:33:9)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62693abae2c887e1",
+        "name" : "Request",
+        "source" : "62693abae2c887e1.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "459cba6c8b12f170",
+      "name" : "Response",
+      "source" : "459cba6c8b12f170.json",
+      "type" : "application/json",
+      "size" : 1069
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testMethod",
+    "value" : "Complete signing the docusign contract"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.74"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6415f1e16b6e3db1.json",
+  "parameterValues" : [ "chrome-99.0.4844.74" ]
+}

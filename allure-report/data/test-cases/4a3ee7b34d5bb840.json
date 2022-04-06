@@ -1,0 +1,62 @@
+{
+  "uid" : "4a3ee7b34d5bb840",
+  "name" : "Add a new user",
+  "fullName" : "orthocatapult.Add a new user",
+  "historyId" : "b98003ff7f1ac156555c700d402d8234",
+  "time" : {
+    "start" : 1648011787089,
+    "stop" : 1648011787090,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "broswer is not defined",
+  "statusTrace" : "ReferenceError: broswer is not defined\n                    at Context.<anonymous> (F:\\macking\\testing\\wdio\\test\\specs\\example.e2e.js:46:9)\n                    at Context.executeAsync (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add a new user"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a3ee7b34d5bb840.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

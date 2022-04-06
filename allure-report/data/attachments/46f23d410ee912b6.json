@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//mdl-select[@name='currency']//input[@class='mdl-textfield__input']"
+}

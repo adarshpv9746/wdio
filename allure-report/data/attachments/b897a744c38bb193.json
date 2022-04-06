@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@name='year_of_birth']"
+}

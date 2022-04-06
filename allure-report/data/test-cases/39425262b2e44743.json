@@ -1,0 +1,117 @@
+{
+  "uid" : "39425262b2e44743",
+  "name" : "Add a new user",
+  "fullName" : "orthocatapult.Add a new user",
+  "historyId" : "b98003ff7f1ac156555c700d402d8234",
+  "time" : {
+    "start" : 1648017177741,
+    "stop" : 1648017182003,
+    "duration" : 4262
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <img _ngcontent-ale-c6=\"\" alt=\"menu-icon\" class=\"nav-icon\" src=\"assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg\"> is not clickable at point (44, 40). Other element would receive the click: <mdl-backdrop-overlay class=\"ng-star-inserted dialog-backdrop\" style=\"z-index: 100000;\"></mdl-backdrop-overlay>\n                  (Session info: chrome=99.0.4844.82)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <img _ngcontent-ale-c6=\"\" alt=\"menu-icon\" class=\"nav-icon\" src=\"assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg\"> is not clickable at point (44, 40). Other element would receive the click: <mdl-backdrop-overlay class=\"ng-star-inserted dialog-backdrop\" style=\"z-index: 100000;\"></mdl-backdrop-overlay>\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (F:\\macking\\testing\\wdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (F:\\macking\\testing\\wdio\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <img _ngcontent-ale-c6=\"\" alt=\"menu-icon\" class=\"nav-icon\" src=\"assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg\"> is not clickable at point (44, 40). Other element would receive the click: <mdl-backdrop-overlay class=\"ng-star-inserted dialog-backdrop\" style=\"z-index: 100000;\"></mdl-backdrop-overlay>\n                  (Session info: chrome=99.0.4844.82)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <img _ngcontent-ale-c6=\"\" alt=\"menu-icon\" class=\"nav-icon\" src=\"assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg\"> is not clickable at point (44, 40). Other element would receive the click: <mdl-backdrop-overlay class=\"ng-star-inserted dialog-backdrop\" style=\"z-index: 100000;\"></mdl-backdrop-overlay>\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (F:\\macking\\testing\\wdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (F:\\macking\\testing\\wdio\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648017177742,
+        "stop" : 1648017177777,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2e24269712f7177",
+        "name" : "Request",
+        "source" : "d2e24269712f7177.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "a4eff41acd42e3e6",
+        "name" : "Response",
+        "source" : "a4eff41acd42e3e6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/37eafe17-c0f8-4ee3-b854-b867efc93125/click",
+      "time" : {
+        "start" : 1648017177779,
+        "stop" : 1648017182002,
+        "duration" : 4223
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <img _ngcontent-ale-c6=\"\" alt=\"menu-icon\" class=\"nav-icon\" src=\"assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg\"> is not clickable at point (44, 40). Other element would receive the click: <mdl-backdrop-overlay class=\"ng-star-inserted dialog-backdrop\" style=\"z-index: 100000;\"></mdl-backdrop-overlay>\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (F:\\macking\\testing\\wdio\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (F:\\macking\\testing\\wdio\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\macking\\testing\\wdio\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (F:\\macking\\testing\\wdio\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add a new user"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39425262b2e44743.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

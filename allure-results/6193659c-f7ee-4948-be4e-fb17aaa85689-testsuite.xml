@@ -1,0 +1,188 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648017291224' stop='1648017316841'>
+    <name>orthocatapult</name>
+    <title>orthocatapult</title>
+    <test-cases>
+        <test-case start='1648017291225' status='passed' stop='1648017297535'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648017291232' status='passed' stop='1648017296993'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9895f7a2-3e80-47ba-9373-8d106a125151-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='870c6370-997b-430c-9b95-42a9b32a0008-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1648017291239' status='passed' stop='1648017291296'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='452eb733-ffa1-4e88-942b-1f3e2b10a6e6-attachment.json' type='application/json' size='51'/>
+                                <attachment title='Response' source='3a7ab6cb-b4d4-4bac-bcfe-bead0871c7c8-attachment.json' type='application/json' size='1027'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1648017291314' status='passed' stop='1648017296974'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='ad8a56d5-508d-43a8-8cf3-f86d81014ce0-attachment.json' type='application/json' size='53'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1648017297000' status='passed' stop='1648017297022'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a2a4ceef-19d3-4620-89aa-1c59b1efde5a-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='933eb205-d029-472c-8df6-37fae9b997d1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648017297024' status='passed' stop='1648017297066'>
+                    <name>POST /session/:sessionId/element/91edf03e-d199-41e5-891e-a8cca84ae488/clear</name>
+                    <title>POST /session/:sessionId/element/91edf03e-d199-41e5-891e-a8cca84ae488/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648017297073' status='passed' stop='1648017297246'>
+                    <name>POST /session/:sessionId/element/91edf03e-d199-41e5-891e-a8cca84ae488/value</name>
+                    <title>POST /session/:sessionId/element/91edf03e-d199-41e5-891e-a8cca84ae488/value</title>
+                    <attachments>
+                        <attachment title='Request' source='458a736f-0571-43b3-bb37-41ad2ccec8a0-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648017297246' status='passed' stop='1648017297279'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9bf4a24f-3c1b-43a0-9e79-8d018feb377b-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='b2c142e7-85de-4c43-aa60-b0e1429f2455-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648017297284' status='passed' stop='1648017297320'>
+                    <name>POST /session/:sessionId/element/56caaa88-81ba-4c14-ab53-8fe8c2184eed/clear</name>
+                    <title>POST /session/:sessionId/element/56caaa88-81ba-4c14-ab53-8fe8c2184eed/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648017297321' status='passed' stop='1648017297403'>
+                    <name>POST /session/:sessionId/element/56caaa88-81ba-4c14-ab53-8fe8c2184eed/value</name>
+                    <title>POST /session/:sessionId/element/56caaa88-81ba-4c14-ab53-8fe8c2184eed/value</title>
+                    <attachments>
+                        <attachment title='Request' source='84e76b16-96d0-4157-9b75-eb36eabc5945-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648017297403' status='passed' stop='1648017297436'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dcb57ce3-31e9-446a-af1f-a79791da96e1-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='ca0c03e6-f8d7-4cfc-ac3c-7adab860806f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648017297441' status='passed' stop='1648017297534'>
+                    <name>POST /session/:sessionId/element/fbe782db-04c9-4cee-b5d3-30bb4ac64f25/click</name>
+                    <title>POST /session/:sessionId/element/fbe782db-04c9-4cee-b5d3-30bb4ac64f25/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648017297536' status='broken' stop='1648017312591'>
+            <name>Complete payment</name>
+            <title>Complete payment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648017312538' status='passed' stop='1648017312579'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e5881335-d055-4c5c-bc54-7d22d3c658fb-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='fd1ff7b7-e1b2-4c75-a875-0dfbae9ef02c-attachment.json' type='application/json' size='1038'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at F:\macking\testing\wdio\node_modules\@wdio\utils\build\shim.js:253:38
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async cartpage.cart (F:\macking\testing\wdio\test\pageobjects\cart.page.js:13:9)
+                    at async Context.&lt;anonymous> (F:\macking\testing\wdio\test\specs\example.e2e.js:26:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648017312594' status='broken' stop='1648017316840'>
+            <name>Add a new user</name>
+            <title>Add a new user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648017312594' status='passed' stop='1648017312612'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='98734671-d921-4d53-a07c-679c4826f96a-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='1e4ea536-b868-45a4-9a2d-39215302f8b0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648017312615' status='broken' stop='1648017316840'>
+                    <name>POST /session/:sessionId/element/dba6d5cb-dd44-4c18-b4a7-7eccba0dd623/click</name>
+                    <title>POST /session/:sessionId/element/dba6d5cb-dd44-4c18-b4a7-7eccba0dd623/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;img _ngcontent-dsw-c6="" alt="menu-icon" class="nav-icon" src="assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg"> is not clickable at point (44, 40). Other element would receive the click: &lt;mdl-backdrop-overlay class="ng-star-inserted dialog-backdrop" style="z-index: 100000;">&lt;/mdl-backdrop-overlay>
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;img _ngcontent-dsw-c6="" alt="menu-icon" class="nav-icon" src="assets/menu-icon.6f1572640ae6d9cd0a86a30c6d626c7f.svg"> is not clickable at point (44, 40). Other element would receive the click: &lt;mdl-backdrop-overlay class="ng-star-inserted dialog-backdrop" style="z-index: 100000;">&lt;/mdl-backdrop-overlay>
+                  (Session info: chrome=99.0.4844.82)
+                    at getErrorFromResponseBody (F:\macking\testing\wdio\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (F:\macking\testing\wdio\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (F:\macking\testing\wdio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (F:\macking\testing\wdio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (F:\macking\testing\wdio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (F:\macking\testing\wdio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (F:\macking\testing\wdio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (F:\macking\testing\wdio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (F:\macking\testing\wdio\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

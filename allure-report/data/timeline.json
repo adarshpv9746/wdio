@@ -4,14 +4,14 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "navigate to practice management",
-      "uid" : "ce639e4b9e6217b3",
+      "name" : "should login with valid credentials",
+      "uid" : "67d86b92cf8f8381",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1647938398058,
-        "stop" : 1647938401834,
-        "duration" : 3776
+        "start" : 1647948483366,
+        "stop" : 1647948490453,
+        "duration" : 7087
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,42 +21,501 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
-      "name" : "Add a practice",
-      "uid" : "e8592eeac23e6df0",
+      "name" : "Complete payment",
+      "uid" : "2ce6b2b687b1d11a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1647938569617,
-        "stop" : 1647938588008,
-        "duration" : 18391
+        "start" : 1648022750460,
+        "stop" : 1648022765498,
+        "duration" : 15038
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "58176c4476ab0f3a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956121620,
+        "stop" : 1647956128143,
+        "duration" : 6523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
       "name" : "navigate to practice management",
-      "uid" : "c7d83bc603b604ec",
+      "uid" : "e93b2875fbafd172",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1647938566631,
-        "stop" : 1647938569615,
-        "duration" : 2984
+        "start" : 1648105896140,
+        "stop" : 1648105899231,
+        "duration" : 3091
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "74a827ca7db082b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016268650,
+        "stop" : 1648016278682,
+        "duration" : 10032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "f81e07f7b20a975e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647956219990,
+        "stop" : 1647956231024,
+        "duration" : 11034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "66c23745eb1ddd79",
+      "uid" : "b5675c52b1a662ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647955177172,
+        "stop" : 1647955183073,
+        "duration" : 5901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b2300df69076e33f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948639090,
+        "stop" : 1647948644879,
+        "duration" : 5789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f99b4ab95e05ace8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647950610786,
+        "stop" : 1647950620857,
+        "duration" : 10071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "5607d0a1bb95e238",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938560759,
+        "stop" : 1647938566630,
+        "duration" : 5871
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "7ee4daa5cfbc2726",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647955208509,
+        "stop" : 1647955239905,
+        "duration" : 31396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "fbd107dfd57b1793",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648107763202,
+        "stop" : 1648107764182,
+        "duration" : 980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "85656e7c825ebfe5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648022730114,
+        "stop" : 1648022730118,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "be0ea18bb16c048d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647952044672,
+        "stop" : 1647952050979,
+        "duration" : 6307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "aef2e7160525856b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648022871025,
+        "stop" : 1648022889125,
+        "duration" : 18100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "91c40b5ff210179b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016241572,
+        "stop" : 1648016268649,
+        "duration" : 27077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "26a57b2cf65bad11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016007649,
+        "stop" : 1648016032704,
+        "duration" : 25055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "bdc6eb7983485ddf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951950058,
+        "stop" : 1647951969915,
+        "duration" : 19857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "e6c841623519475e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647948765594,
+        "stop" : 1647948780707,
+        "duration" : 15113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "6c1d15ff1997c768",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647952075877,
+        "stop" : 1647952132749,
+        "duration" : 56872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ac1b919d9330e523",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648015489660,
+        "stop" : 1648015496465,
+        "duration" : 6805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "5cc317d03388f8e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647953484481,
+        "stop" : 1647953491168,
+        "duration" : 6687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "846a1493db74c04e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950601828,
+        "stop" : 1647950605042,
+        "duration" : 3214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "10934018f32b5a11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648123479778,
+        "stop" : 1648123489799,
+        "duration" : 10021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 21,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "c6c7c295bdafa2f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648107743462,
+        "stop" : 1648107763201,
+        "duration" : 19739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "aa809ce71c275e3e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956131869,
+        "stop" : 1647956153251,
+        "duration" : 21382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a3ea6d7797039dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648015999910,
+        "stop" : 1648016007648,
+        "duration" : 7738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "9f744e7df9677e66",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022818358,
+        "stop" : 1648022821897,
+        "duration" : 3539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "49f5e4412de3c0e3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647955239906,
+        "stop" : 1647955249956,
+        "duration" : 10050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cc263e877ded22c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951711132,
+        "stop" : 1647951716901,
+        "duration" : 5769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "39b74992ce2ab727",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -72,25 +531,875 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
-      "name" : "should login with valid credentials",
-      "uid" : "e01db5d70702816",
+      "name" : "Add a new user",
+      "uid" : "35c242cfa9243ebd",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1647938560759,
-        "stop" : 1647938566630,
-        "duration" : 5871
+        "start" : 1648016032705,
+        "stop" : 1648016042736,
+        "duration" : 10031
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "4f699d1981b07244",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951969915,
+        "stop" : 1647951974281,
+        "duration" : 4366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "bedfd4f7532990ee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022726541,
+        "stop" : 1648022730113,
+        "duration" : 3572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b415ed2cb24cb1c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022719583,
+        "stop" : 1648022726540,
+        "duration" : 6957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "4ea780ac327738c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647952808709,
+        "stop" : 1647952868715,
+        "duration" : 60006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "d7c0849ec475c19b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017613289,
+        "stop" : 1648017618898,
+        "duration" : 5609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "b3b7611bfe6ba140",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017095660,
+        "stop" : 1648017105685,
+        "duration" : 10025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "6818177ada3bbc66",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956359324,
+        "stop" : 1647956362498,
+        "duration" : 3174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "1f5775fa63afc4a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016086091,
+        "stop" : 1648016111135,
+        "duration" : 25044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a074cf3ccdc767a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948148396,
+        "stop" : 1647948153799,
+        "duration" : 5403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "41f1998960c20de8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648105920622,
+        "stop" : 1648105950248,
+        "duration" : 29626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "4b38772804efa350",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648107764182,
+        "stop" : 1648107794226,
+        "duration" : 30044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "4d11e82f689db518",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648105899231,
+        "stop" : 1648105919539,
+        "duration" : 20308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "999dae3df5c81c8c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948760077,
+        "stop" : 1647948765593,
+        "duration" : 5516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "3dba98368db00cb9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956353484,
+        "stop" : 1647956359323,
+        "duration" : 5839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "491a89fbbe9440d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017425530,
+        "stop" : 1648017440569,
+        "duration" : 15039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "ae59b240562709df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012277728,
+        "stop" : 1648012302781,
+        "duration" : 25053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "51819979fd087116",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647955204232,
+        "stop" : 1647955208508,
+        "duration" : 4276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "a80d4c544847494",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951716902,
+        "stop" : 1647951720365,
+        "duration" : 3463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "a76ff45453f4a292",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022840716,
+        "stop" : 1648022871025,
+        "duration" : 30309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "42b3338113a5c787",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648011727083,
+        "stop" : 1648011787088,
+        "duration" : 60005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "5f68ed88dc1b2d43",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647948870521,
+        "stop" : 1647948930525,
+        "duration" : 60004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
       "name" : "Add a practice",
-      "uid" : "848fe745917ab95b",
+      "uid" : "6a4851dcfcd6a54",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648123416950,
+        "stop" : 1648123434393,
+        "duration" : 17443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "467f4c554b00fe56",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012349383,
+        "stop" : 1648012380864,
+        "duration" : 31481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "843a60d2af1d0b59",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948544417,
+        "stop" : 1647948552384,
+        "duration" : 7967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "9a43101094f3363a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648105889559,
+        "stop" : 1648105896139,
+        "duration" : 6580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b17f4f3e2efcb06e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956379731,
+        "stop" : 1647956384236,
+        "duration" : 4505
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 32,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "51901933481f88c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647951665999,
+        "stop" : 1647951670026,
+        "duration" : 4027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "1a8e75c6f2fa82da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017618898,
+        "stop" : 1648017643952,
+        "duration" : 25054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "6415f1e16b6e3db1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647950620858,
+        "stop" : 1647950630913,
+        "duration" : 10055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "e9c1fd35ba229bd9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017291225,
+        "stop" : 1648017297535,
+        "duration" : 6310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "cf0bd72170cf76f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951940570,
+        "stop" : 1647951946819,
+        "duration" : 6249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "ea87046c289cce3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648018116476,
+        "stop" : 1648018120747,
+        "duration" : 4271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "6d835860b4aaab80",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951738721,
+        "stop" : 1647951742996,
+        "duration" : 4275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "46fe826af75bd2b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647951680263,
+        "stop" : 1647951690307,
+        "duration" : 10044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "4e4548c29788ca8e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648011665446,
+        "stop" : 1648011671299,
+        "duration" : 5853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "9e2d96f517aa8cf4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951720366,
+        "stop" : 1647951738720,
+        "duration" : 18354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "5426294ded8f6fde",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648012272031,
+        "stop" : 1648012277727,
+        "duration" : 5696
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "6a1c308276335041",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648011977594,
+        "stop" : 1648012002631,
+        "duration" : 25037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "6a6797ddb05a72fc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647948111017,
+        "stop" : 1647948134018,
+        "duration" : 23001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "bd8771250f5c86a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017150692,
+        "stop" : 1648017177740,
+        "duration" : 27048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "468efcb7e3e6fa99",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017440570,
+        "stop" : 1648017444902,
+        "duration" : 4332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "6d2e1a8272d689c3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648107794226,
+        "stop" : 1648107809290,
+        "duration" : 15064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "1a39ad6c6a38daca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648105965325,
+        "stop" : 1648105975351,
+        "duration" : 10026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "bb14ebd4488dfa98",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948864175,
+        "stop" : 1647948870520,
+        "duration" : 6345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "7fb215e56f400c7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647955186777,
+        "stop" : 1647955204232,
+        "duration" : 17455
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f979532e50b54f38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648018252614,
+        "stop" : 1648018258947,
+        "duration" : 6333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "fe7708f635e89a0a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648015521514,
+        "stop" : 1648015525761,
+        "duration" : 4247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "32e104d2243be47a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648123406498,
+        "stop" : 1648123413692,
+        "duration" : 7194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "bd8a9b3ebfa70449",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648018284005,
+        "stop" : 1648018288307,
+        "duration" : 4302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "312254505f7acd94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956153252,
+        "stop" : 1647956159985,
+        "duration" : 6733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "257d631420ab5012",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -106,8 +1415,450 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
+      "name" : "Add a new user",
+      "uid" : "4a3ee7b34d5bb840",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648011787089,
+        "stop" : 1648011787090,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "681ca3691362d3e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948400402,
+        "stop" : 1647948400407,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2585f03aed6e4f33",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648022730119,
+        "stop" : 1648022740350,
+        "duration" : 10231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "4af299363ae1a0ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016079834,
+        "stop" : 1648016086091,
+        "duration" : 6257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "4a6ffacc924fea26",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956384237,
+        "stop" : 1647956416873,
+        "duration" : 32636
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 19,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "e04358c817a42644",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647952053831,
+        "stop" : 1647952071513,
+        "duration" : 17682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "498037e7d0859376",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648011695392,
+        "stop" : 1648011727082,
+        "duration" : 31690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
       "name" : "navigate to practice management",
-      "uid" : "7e37d999797e848d",
+      "uid" : "b467cbb84da6f930",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648107738405,
+        "stop" : 1648107743461,
+        "duration" : 5056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "c01ce85d57e7b54b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647951670225,
+        "stop" : 1647951680262,
+        "duration" : 10037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ee85111f252e02d5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647931061084,
+        "stop" : 1647931077158,
+        "duration" : 16074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "ca065be4d9b0fe09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017068484,
+        "stop" : 1648017095659,
+        "duration" : 27175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "f204826d1eabb04e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647956416874,
+        "stop" : 1647956456955,
+        "duration" : 40081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "738e72c5dff59f7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647948134021,
+        "stop" : 1647948134027,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "2ceab5802909ebd4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648123464700,
+        "stop" : 1648123479777,
+        "duration" : 15077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 21,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "10625e14d780b88b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948394137,
+        "stop" : 1647948400402,
+        "duration" : 6265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "be209ea160f14d5a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022821898,
+        "stop" : 1648022839558,
+        "duration" : 17660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "c6442854638e1f96",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647956159985,
+        "stop" : 1647956219989,
+        "duration" : 60004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "5c8d3c078c7c9068",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647953491168,
+        "stop" : 1647953516251,
+        "duration" : 25083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "b4650216207193f1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648022765498,
+        "stop" : 1648022775707,
+        "duration" : 10209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "63dce76def5ffabd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948204810,
+        "stop" : 1647948210522,
+        "duration" : 5712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "719b57c021b030c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017643953,
+        "stop" : 1648017648152,
+        "duration" : 4199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "a82d475bfab7266e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938566631,
+        "stop" : 1647938569615,
+        "duration" : 2984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "daeff47b844892b1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647951670027,
+        "stop" : 1647951670225,
+        "duration" : 198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "304005c03db0591f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648022889127,
+        "stop" : 1648022899159,
+        "duration" : 10032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "b92da856195cec84",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012513507,
+        "stop" : 1648012523534,
+        "duration" : 10027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "edc15b64cc178ddb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012302781,
+        "stop" : 1648012307069,
+        "duration" : 4288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "6c850bbe7d7e6600",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -123,14 +1874,1068 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-99.0.4844.74" ]
     }, {
-      "name" : "should login with valid credentials",
-      "uid" : "c1a5896fee795bf9",
+      "name" : "Complete signing the docusign contract",
+      "uid" : "78d36dbcd74b62ae",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1647931061084,
-        "stop" : 1647931077158,
-        "duration" : 16074
+        "start" : 1648123435497,
+        "stop" : 1648123464700,
+        "duration" : 29203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "c3b7cda8046acf42",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648012479778,
+        "stop" : 1648012486475,
+        "duration" : 6697
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "73acf341e1130306",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647952071514,
+        "stop" : 1647952075876,
+        "duration" : 4362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "29f1782474aa32b1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647952753091,
+        "stop" : 1647952759266,
+        "duration" : 6175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "1e898600f2e7248",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956362498,
+        "stop" : 1647956379731,
+        "duration" : 17233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "e5d97f9980439a94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016111135,
+        "stop" : 1648016121163,
+        "duration" : 10028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b7ec35e58a0bc827",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647953708190,
+        "stop" : 1647953731657,
+        "duration" : 23467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "302d0125ad0b0c07",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016183110,
+        "stop" : 1648016208237,
+        "duration" : 25127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "c434a797bd3bd116",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647952759266,
+        "stop" : 1647952778314,
+        "duration" : 19048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2239f075cb765009",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017144035,
+        "stop" : 1648017150691,
+        "duration" : 6656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "46b4937448ecf4ee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647947929785,
+        "stop" : 1647947929799,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b2f8f0516ee46ca1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950810326,
+        "stop" : 1647950814490,
+        "duration" : 4164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "d97d8c3a753b5b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648011971230,
+        "stop" : 1648011977594,
+        "duration" : 6364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "9ba74e4025c31a39",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648107809291,
+        "stop" : 1648107819315,
+        "duration" : 10024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "7aa8cffe8c05d9ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017419158,
+        "stop" : 1648017425530,
+        "duration" : 6372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "441fcca07881721b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016235148,
+        "stop" : 1648016241572,
+        "duration" : 6424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "e15129a79fb310e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647952802702,
+        "stop" : 1647952808708,
+        "duration" : 6006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "b6dccacc6a465835",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647951974281,
+        "stop" : 1647951988235,
+        "duration" : 13954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "e569f66eb31bd6e4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012002632,
+        "stop" : 1648012012664,
+        "duration" : 10032
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "b0ef074eb693559d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648018258948,
+        "stop" : 1648018284005,
+        "duration" : 25057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "9ae4534b1c130264",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648011671299,
+        "stop" : 1648011674773,
+        "duration" : 3474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "1869cec432fb6274",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648012342079,
+        "stop" : 1648012349382,
+        "duration" : 7303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "6156b5b4439d20dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647956128143,
+        "stop" : 1647956131869,
+        "duration" : 3726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ecf85038b79cf690",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648017062027,
+        "stop" : 1648017068484,
+        "duration" : 6457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "6100acc4981d9711",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647955183073,
+        "stop" : 1647955186776,
+        "duration" : 3703
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "c3fc2fcd4e106c27",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648022740350,
+        "stop" : 1648022750460,
+        "duration" : 10110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "bc52e5db1563d22d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022839559,
+        "stop" : 1648022840715,
+        "duration" : 1156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "3ed90fbe3031b3f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648011691375,
+        "stop" : 1648011695391,
+        "duration" : 4016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "14b3b3dcdbbed615",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648018099749,
+        "stop" : 1648018106389,
+        "duration" : 6640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "6a8a232f1ddd769e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938569617,
+        "stop" : 1647938588008,
+        "duration" : 18391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a2caed06ee291b1d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648123434393,
+        "stop" : 1648123435497,
+        "duration" : 1104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 27,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "17b9842559895c38",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950814490,
+        "stop" : 1647950858509,
+        "duration" : 44019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "84125c71f68226c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648123413693,
+        "stop" : 1648123416949,
+        "duration" : 3256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "b6a440291216a05a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648105919540,
+        "stop" : 1648105920621,
+        "duration" : 1081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "df6ac1ba4048a7fc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648022811998,
+        "stop" : 1648022818357,
+        "duration" : 6359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "75d98ab0762c0c32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648018106390,
+        "stop" : 1648018116473,
+        "duration" : 10083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2c9bf1de248d78ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648016175639,
+        "stop" : 1648016183109,
+        "duration" : 7470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "de715c1d0ed08cd0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648016208238,
+        "stop" : 1648016218267,
+        "duration" : 10029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "3c2a5a9a494952c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017297536,
+        "stop" : 1648017312591,
+        "duration" : 15055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "88848d493ddaf663",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948552385,
+        "stop" : 1647948552390,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "6be6d105038b22ea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647948153800,
+        "stop" : 1647948153806,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "345cde4d55939b13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012380867,
+        "stop" : 1648012390895,
+        "duration" : 10028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "503caebc6968b4a7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648012486476,
+        "stop" : 1648012513506,
+        "duration" : 27030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "35e588b490223d87",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647951742996,
+        "stop" : 1647951759836,
+        "duration" : 16840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "1f7e532931269656",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950792745,
+        "stop" : 1647950810326,
+        "duration" : 17581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "5ddcc0985d181329",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951946819,
+        "stop" : 1647951950057,
+        "duration" : 3238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "de3b64a544d935d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647951657916,
+        "stop" : 1647951665998,
+        "duration" : 8082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "39425262b2e44743",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017177741,
+        "stop" : 1648017182003,
+        "duration" : 4262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "182469cfe0baa787",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648105950248,
+        "stop" : 1648105965325,
+        "duration" : 15077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "5c6caf45af99375a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948210522,
+        "stop" : 1647948210529,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "61d0e0df38109f22",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648107730568,
+        "stop" : 1648107738404,
+        "duration" : 7836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "5354c4b065317cf3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647952050981,
+        "stop" : 1647952053829,
+        "duration" : 2848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "5f9591ed686220ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648011674773,
+        "stop" : 1648011691375,
+        "duration" : 16602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "8a64429555bbb371",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950783576,
+        "stop" : 1647950789374,
+        "duration" : 5798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "d621b5bb6b614189",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950789375,
+        "stop" : 1647950792744,
+        "duration" : 3369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Add a new user",
+      "uid" : "103d14f0641e41cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648017312594,
+        "stop" : 1648017316840,
+        "duration" : 4246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Add a practice",
+      "uid" : "4734cee5054318d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647950605042,
+        "stop" : 1647950610785,
+        "duration" : 5743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "e49735aa606a6139",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647947965785,
+        "stop" : 1647947965805,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "1002c85704e9806",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948490453,
+        "stop" : 1647948490460,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "navigate to practice management",
+      "uid" : "b185aa9412466e69",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647938398058,
+        "stop" : 1647938401834,
+        "duration" : 3776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "3e93fd3baa7ab134",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648015496466,
+        "stop" : 1648015521514,
+        "duration" : 25048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "c2d36626086cb1cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647950596338,
+        "stop" : 1647950601828,
+        "duration" : 5490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.74" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "b6da83a991f24f83",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647948644880,
+        "stop" : 1647948644889,
+        "duration" : 9
       },
       "flaky" : false,
       "newFailed" : false,

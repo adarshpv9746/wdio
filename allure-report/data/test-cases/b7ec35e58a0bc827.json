@@ -1,0 +1,376 @@
+{
+  "uid" : "b7ec35e58a0bc827",
+  "name" : "should login with valid credentials",
+  "fullName" : "orthocatapult.should login with valid credentials",
+  "historyId" : "80a07550122f70b55f139d3dbf7b2e02",
+  "time" : {
+    "start" : 1647953708190,
+    "stop" : 1647953731657,
+    "duration" : 23467
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "read ECONNRESET",
+  "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "read ECONNRESET",
+    "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647953708196,
+        "stop" : 1647953714046,
+        "duration" : 5850
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1647953708207,
+          "stop" : 1647953708457,
+          "duration" : 250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bf891fdd5a489a20",
+          "name" : "Request",
+          "source" : "bf891fdd5a489a20.json",
+          "type" : "application/json",
+          "size" : 46
+        }, {
+          "uid" : "2102c6503ff5034d",
+          "name" : "Response",
+          "source" : "2102c6503ff5034d.json",
+          "type" : "application/json",
+          "size" : 1027
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1647953708477,
+          "stop" : 1647953714030,
+          "duration" : 5553
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "537d8a5cf12541ba",
+          "name" : "Request",
+          "source" : "537d8a5cf12541ba.json",
+          "type" : "application/json",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "fd4a1495c8041dac",
+        "name" : "Request",
+        "source" : "fd4a1495c8041dac.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "7d118b0a77b9c024",
+        "name" : "Response",
+        "source" : "7d118b0a77b9c024.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647953714052,
+        "stop" : 1647953714084,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4d18be7fa290822",
+        "name" : "Request",
+        "source" : "b4d18be7fa290822.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "1792aedd98fc808f",
+        "name" : "Response",
+        "source" : "1792aedd98fc808f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/21311eda-4552-43f3-8775-cd29a90fba2b/clear",
+      "time" : {
+        "start" : 1647953714087,
+        "stop" : 1647953714140,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/21311eda-4552-43f3-8775-cd29a90fba2b/value",
+      "time" : {
+        "start" : 1647953714151,
+        "stop" : 1647953714345,
+        "duration" : 194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a420b3e771cde590",
+        "name" : "Request",
+        "source" : "a420b3e771cde590.json",
+        "type" : "application/json",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647953714346,
+        "stop" : 1647953714368,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10e6907155487533",
+        "name" : "Request",
+        "source" : "10e6907155487533.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "163b5e5511e039f6",
+        "name" : "Response",
+        "source" : "163b5e5511e039f6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/19983d46-9b0e-44ac-97f2-65f3eb1c4590/clear",
+      "time" : {
+        "start" : 1647953714371,
+        "stop" : 1647953714420,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/19983d46-9b0e-44ac-97f2-65f3eb1c4590/value",
+      "time" : {
+        "start" : 1647953714420,
+        "stop" : 1647953714511,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bd46581b8546ca",
+        "name" : "Request",
+        "source" : "5bd46581b8546ca.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647953714512,
+        "stop" : 1647953714529,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2958c59903166df5",
+        "name" : "Request",
+        "source" : "2958c59903166df5.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "7d95c5c9b9a4e3a",
+        "name" : "Response",
+        "source" : "7d95c5c9b9a4e3a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/8231ca78-f620-4808-9ccc-27098ac9eedf/click",
+      "time" : {
+        "start" : 1647953714532,
+        "stop" : 1647953714643,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647953714643,
+        "stop" : 1647953718487,
+        "duration" : 3844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0479187ed35d1",
+        "name" : "Request",
+        "source" : "c0479187ed35d1.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647953729645,
+        "stop" : 1647953731657,
+        "duration" : 2012
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+      "steps" : [ {
+        "name" : "DELETE /session/:sessionId",
+        "time" : {
+          "start" : 1647953731641,
+          "stop" : 1647953731657,
+          "duration" : 16
+        },
+        "status" : "broken",
+        "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "95aa383a75922935",
+        "name" : "Request",
+        "source" : "95aa383a75922935.json",
+        "type" : "application/json",
+        "size" : 64
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.74"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7ec35e58a0bc827.json",
+  "parameterValues" : [ "chrome-99.0.4844.74" ]
+}

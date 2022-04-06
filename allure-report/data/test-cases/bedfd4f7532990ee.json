@@ -1,0 +1,310 @@
+{
+  "uid" : "bedfd4f7532990ee",
+  "name" : "navigate to practice management",
+  "fullName" : "orthocatapult.navigate to practice management",
+  "historyId" : "3bce75218c79a62ac778ad34a67b0126",
+  "time" : {
+    "start" : 1648022726541,
+    "stop" : 1648022730113,
+    "duration" : 3572
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648022726542,
+        "stop" : 1648022726592,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/url",
+        "time" : {
+          "start" : 1648022726544,
+          "stop" : 1648022726560,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "435234319e2e70c0",
+          "name" : "Response",
+          "source" : "435234319e2e70c0.json",
+          "type" : "application/json",
+          "size" : 39
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "e8035cf866542948",
+        "name" : "Request",
+        "source" : "e8035cf866542948.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "441f6d3bb78e5517",
+        "name" : "Response",
+        "source" : "441f6d3bb78e5517.json",
+        "type" : "application/json",
+        "size" : 1034
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1648022726600,
+        "stop" : 1648022726635,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "966447be21fd2a95",
+        "name" : "Request",
+        "source" : "966447be21fd2a95.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "258ff211762ec58",
+        "name" : "Response",
+        "source" : "258ff211762ec58.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1648022727102,
+        "stop" : 1648022727189,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58f82a589e6f8a2a",
+        "name" : "Request",
+        "source" : "58f82a589e6f8a2a.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "2f8ae4086704f60e",
+        "name" : "Response",
+        "source" : "2f8ae4086704f60e.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1648022727602,
+        "stop" : 1648022728732,
+        "duration" : 1130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65ac3264e0934c8",
+        "name" : "Request",
+        "source" : "65ac3264e0934c8.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "c71488015ecd02f2",
+        "name" : "Response",
+        "source" : "c71488015ecd02f2.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1648022728744,
+        "stop" : 1648022728872,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bc7c216b92120bf",
+        "name" : "Request",
+        "source" : "5bc7c216b92120bf.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "e65ac67b34087d03",
+        "name" : "Response",
+        "source" : "e65ac67b34087d03.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648022728874,
+        "stop" : 1648022728995,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5379661b6e4cd4d6",
+        "name" : "Request",
+        "source" : "5379661b6e4cd4d6.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "43f594d3dbdfd853",
+        "name" : "Response",
+        "source" : "43f594d3dbdfd853.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/33ca6887-2e0c-462e-8889-1697635e390c/click",
+      "time" : {
+        "start" : 1648022728998,
+        "stop" : 1648022729921,
+        "duration" : 923
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648022729922,
+        "stop" : 1648022729987,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc6fa90b8811b7b3",
+        "name" : "Request",
+        "source" : "fc6fa90b8811b7b3.json",
+        "type" : "application/json",
+        "size" : 76
+      }, {
+        "uid" : "b3e0e6fd58c584c5",
+        "name" : "Response",
+        "source" : "b3e0e6fd58c584c5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/cdbf46b8-f6ee-404c-9bf1-c94c623363a6/click",
+      "time" : {
+        "start" : 1648022729989,
+        "stop" : 1648022730113,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigate to practice management"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bedfd4f7532990ee.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

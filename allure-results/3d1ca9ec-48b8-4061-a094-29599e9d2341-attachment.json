@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//mdl-option[1]//div[@class='mdl-list__item-primary-content']"
+}

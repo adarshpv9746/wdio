@@ -1,0 +1,133 @@
+{
+  "uid" : "c434a797bd3bd116",
+  "name" : "Complete payment",
+  "fullName" : "orthocatapult.Complete payment",
+  "historyId" : "d6f5df1efc9c7ff31ec771d5df8d65be",
+  "time" : {
+    "start" : 1647952759266,
+    "stop" : 1647952778314,
+    "duration" : 19048
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "read ECONNRESET",
+  "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "read ECONNRESET",
+    "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1647952759267,
+        "stop" : 1647952763315,
+        "duration" : 4048
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c533365aadb90e8d",
+        "name" : "Request",
+        "source" : "c533365aadb90e8d.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1647952774268,
+        "stop" : 1647952778314,
+        "duration" : 4046
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+      "steps" : [ {
+        "name" : "DELETE /session/:sessionId",
+        "time" : {
+          "start" : 1647952778303,
+          "stop" : 1647952778314,
+          "duration" : 11
+        },
+        "status" : "broken",
+        "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (F:\\macking\\testing\\wdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (node:events:646:26)\n                    at ClientRequest.emit (node:events:538:35)\n                    at ClientRequest.emit (node:domain:475:12)\n                    at ClientRequest.origin.emit (F:\\macking\\testing\\wdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (node:_http_client:442:9)\n                    at Socket.emit (node:events:526:28)\n                    at Socket.emit (node:domain:475:12)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "76618051e1331770",
+        "name" : "Request",
+        "source" : "76618051e1331770.json",
+        "type" : "application/json",
+        "size" : 64
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "testMethod",
+    "value" : "Complete payment"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.74"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c434a797bd3bd116.json",
+  "parameterValues" : [ "chrome-99.0.4844.74" ]
+}
