@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//mdl-select[@name='country_id']//input[@class='mdl-textfield__input']"
-}

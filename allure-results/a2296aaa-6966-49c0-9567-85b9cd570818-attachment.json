@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//mdl-button[@class='primary mdl-button ng-star-inserted']"
-}

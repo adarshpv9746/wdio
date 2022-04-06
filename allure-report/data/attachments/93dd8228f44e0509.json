@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//mdl-select[@name='time_zone']//input[@class='mdl-textfield__input']"
-}

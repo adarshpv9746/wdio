@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//mdl-button[@class='primary mdl-button ng-star-inserted']\"}\n  (Session info: chrome=99.0.4844.74)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00E69943+2595139]\n\tOrdinal0 [0x00DFC9F1+2148849]\n\tOrdinal0 [0x00CF4528+1066280]\n\tOrdinal0 [0x00D20FD4+1249236]\n\tOrdinal0 [0x00D211CB+1249739]\n\tOrdinal0 [0x00D4D812+1431570]\n\tOrdinal0 [0x00D3BA34+1358388]\n\tOrdinal0 [0x00D4BAF2+1424114]\n\tOrdinal0 [0x00D3B806+1357830]\n\tOrdinal0 [0x00D16086+1204358]\n\tOrdinal0 [0x00D16F96+1208214]\n\tGetHandleVerifier [0x0100B232+1658114]\n\tGetHandleVerifier [0x010C312C+2411516]\n\tGetHandleVerifier [0x00EFF261+560433]\n\tGetHandleVerifier [0x00EFE366+556598]\n\tOrdinal0 [0x00E0286B+2173035]\n\tOrdinal0 [0x00E075F8+2192888]\n\tOrdinal0 [0x00E076E5+2193125]\n\tOrdinal0 [0x00E111FC+2232828]\n\tBaseThreadInitThunk [0x758EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A4E+238]\n"
-}

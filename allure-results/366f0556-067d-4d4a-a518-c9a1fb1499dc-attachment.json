@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[.='Adopt and Initial']\"}\n  (Session info: chrome=99.0.4844.74)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00A89943+2595139]\n\tOrdinal0 [0x00A1C9F1+2148849]\n\tOrdinal0 [0x00914528+1066280]\n\tOrdinal0 [0x00940FD4+1249236]\n\tOrdinal0 [0x009411CB+1249739]\n\tOrdinal0 [0x0096D812+1431570]\n\tOrdinal0 [0x0095BA34+1358388]\n\tOrdinal0 [0x0096BAF2+1424114]\n\tOrdinal0 [0x0095B806+1357830]\n\tOrdinal0 [0x00936086+1204358]\n\tOrdinal0 [0x00936F96+1208214]\n\tGetHandleVerifier [0x00C2B232+1658114]\n\tGetHandleVerifier [0x00CE312C+2411516]\n\tGetHandleVerifier [0x00B1F261+560433]\n\tGetHandleVerifier [0x00B1E366+556598]\n\tOrdinal0 [0x00A2286B+2173035]\n\tOrdinal0 [0x00A275F8+2192888]\n\tOrdinal0 [0x00A276E5+2193125]\n\tOrdinal0 [0x00A311FC+2232828]\n\tBaseThreadInitThunk [0x758EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778A7A4E+238]\n"
-}
