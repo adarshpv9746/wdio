@@ -1,12 +1,12 @@
-const accessportal = require('../pageobjects/access.login.page');
-const hhPage1 = require('../pageobjects/hh.page1');
-const hhPage2 = require('../pageobjects/hh.page2');
-const hhPage3 = require('../pageobjects/hh.page3');
-const hhPage4 = require('../pageobjects/hh.page4');
-const hhPage5 = require('../pageobjects/hh.page5');
-const hhPage6 = require('../pageobjects/hh.page6');
-const hhPage7 = require('../pageobjects/hh.page7');
-const hhPage8 = require('../pageobjects/hh.page8');
+const accessportal = require('../pageobjects/logins/access.login.page');
+const hhPage1 = require('../pageobjects/hh/hh.page1');
+const hhPage2 = require('../pageobjects/hh/hh.page2');
+const hhPage3 = require('../pageobjects/hh/hh.page3');
+const hhPage4 = require('../pageobjects/hh/hh.page4');
+const hhPage5 = require('../pageobjects/hh/hh.page5');
+const hhPage6 = require('../pageobjects/hh/hh.page6');
+const hhPage7 = require('../pageobjects/hh/hh.page7');
+const hhPage8 = require('../pageobjects/hh/hh.page8');
 
 
 describe('HH form ', () => {

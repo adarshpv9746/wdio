@@ -17,7 +17,7 @@ class activate {
 
     get printname () {return $("/html/body/div[1]/div[2]/div/section[1]/div/div/div[2]/div[4]/div/section/div[7]/div[1]/div[4]/div[1]/input");}
     get ptitle () {return $("/html/body/div[1]/div[2]/div/section[1]/div/div/div[2]/div[4]/div/section/div[7]/div[1]/div[4]/div[2]/input");}
-    get finish () {return $("/html/body/div[1]/div[2]/div/section[1]/div/div/div[2]/div[5]/div/div[1]/button");}
+    get finish () {return $("//button[@id='end-of-document-btn-finish']");}
     
 
     async act() {

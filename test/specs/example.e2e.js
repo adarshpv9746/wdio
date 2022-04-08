@@ -1,14 +1,12 @@
-const LoginPage = require('../pageobjects/login.page');
-const coodash = require('../pageobjects/dash.page');
+const LoginPage = require('../pageobjects/logins/login.page');
+//const coodash = require('../pageobjects/dash.page');
 const ctdash = require('../pageobjects/ctdash.page');
-const prac = require('../pageobjects/addprac.page');
-const SecurePage = require('../pageobjects/secure.page');
-const docusign = require('../pageobjects/docusign.page');
-const cartpage = require('../pageobjects/cart.page');
-const adduser = require('../pageobjects/usermgnt.page');
+const prac = require('../pageobjects/masteradmn/addprac.page');
+const docusign = require('../pageobjects/docusign/docusign.page');
+const adduser = require('../pageobjects/coo/usermgnt.page');
 
 
-describe('orthocatapult', () => {
+describe('orthocatapult practice creation and activation', () => {
     
     it('should login with valid credentials', async () => {
         browser.url(`http://qa.practicecatapult.com`)
@@ -37,14 +35,14 @@ describe('orthocatapult', () => {
         await docusign.act();
     });
 
-    it('Complete payment', async () => {
-        await cartpage.cart();
-    });
+    //it('Complete payment', async () => {
+    //    await cartpage.cart();
+    //});
 
-    it('Add a new user', async () =>{
+    //it('Add a new user', async () =>{
         //broswer.getUrl();
-        await adduser.newuser();
-    });
+    //    await adduser.newuser();
+    //});
 
     
 

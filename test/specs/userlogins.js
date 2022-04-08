@@ -1,4 +1,4 @@
-const LoginPage = require('../pageobjects/login.page');
+const LoginPage = require('../pageobjects/logins/login.page');
 qaunames = ["ctadmin","master","mac","front","location","doctor"];
 qapaswds = ["Qb@123","Master@123","Mac@123","Tester@123","Location@123", "Doctor@123", ];
 
