@@ -1,4 +1,4 @@
-const helper = require('..//../helpers/helper');
+const helper = require('../../helpers/helper');
 ///////////// PAGE 2  //////////
 
 

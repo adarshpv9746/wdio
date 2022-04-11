@@ -1,4 +1,4 @@
-const helper = require('..//../helpers/helper');
+const helper = require('../../helpers/helper');
 /////////////// PAGE 7  //////////////
 
 
@@ -16,7 +16,7 @@ class hhseven {
     get next() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[7]/form[1]/orthodontic-treatment-preferences[1]/section[1]/div[2]/button[2]"); }
 
     async seven() {
-        //await browser.pause(2000)
+        await browser.pause(1000)
         await this.radio1.click();
         await this.radio2.click();
         await this.radio3.click();

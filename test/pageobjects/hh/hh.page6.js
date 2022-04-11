@@ -1,4 +1,4 @@
-const helper = require('..//../helpers/helper');
+const helper = require('../../helpers/helper');
 ////////////// PAGE 6  //////////////////
 
 
@@ -30,8 +30,9 @@ class hhsix {
     get next() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[2]/button[2]"); }
 
     async six() {
-        //await browser.pause(2000)
+        await browser.pause(1000)
         await this.physician.click();
+        await this.reason.waitForClickable({ timeout: 3000 });
         await this.reason.setValue(helper.test_string);
         await this.visit.click();
         await this.set.click();

@@ -1,4 +1,4 @@
-const helper = require('..//../helpers/helper');
+const helper = require('../../helpers/helper');
 ///////////  PAGE 4  ///////////////
 
 
@@ -52,7 +52,7 @@ class hhfour {
     
 
     async four() {
-        //await browser.pause(2000)
+        await browser.pause(1000)
         await this.dentalinsr.click();
 
         await this.plan.click();

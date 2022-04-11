@@ -1,5 +1,5 @@
 /////  PAGE 1  //////////
-const helper = require('..//../helpers/helper');
+const helper = require('../../helpers/helper');
 
 class hhone {
     //HH form page 1 elements

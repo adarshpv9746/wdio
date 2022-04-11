@@ -21,18 +21,20 @@ describe('Login test', () => {
         browser.maximizeWindow()
         browser.url(`/`)
         await LoginPage.login('mac', 'Mac@123');
-        
+        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/dashboard.png');
         
     });
 
     it('should click add patient ', async () => {
         await dashboard.addp_button();
+        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/peditpage.png');
         
     });
 
     it('should fill patient details ', async () => {
         
         await patient.create();
+        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/pfile.png');
         
     });
 
@@ -42,10 +44,12 @@ describe('Login test', () => {
         const handle = await browser.getWindowHandles()
         await browser.switchToWindow(handle[1])
         browser.getUrl()
+        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/accessportal.png');
     });
 
     it('Should login to hh', async() =>{
         await orthoaccept.login('9999');
+        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/hhloggedin.png');
     });
 
     it('hh page1', async () => {
@@ -84,6 +88,7 @@ describe('Login test', () => {
     it('hh page 8', async () => {
         browser.getUrl();
         await hhPage8.eight();
+        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/hhsuccess.png');
     });
 
 

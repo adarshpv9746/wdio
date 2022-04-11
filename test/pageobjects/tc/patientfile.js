@@ -95,7 +95,8 @@ class patient {
 
         await this.save.scrollIntoView();
         await this.save.click();
-        await this.clstoast.click();
+        //await this.clstoast.click();
+        //await browser.saveScreenshot('../../../screenshots/pfile.png');
     }
     async hhpresent(){
 
