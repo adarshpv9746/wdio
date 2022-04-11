@@ -8,9 +8,9 @@ describe('Login test', () => {
     for (let i=0; i<qaunames.length;i++){
     it('should login to '+qaunames[i], async () => {
         browser.maximizeWindow()
-        browser.url(`https://qa.practicecatapult.com/login`)
+        browser.url('/login')
         await LoginPage.login(qaunames[i], qapaswds[i]);
-        browser.url('https://qa.practicecatapult.com/logout');
+        browser.url('/logout');
         
         
     });}
