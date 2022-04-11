@@ -23,10 +23,11 @@ exports.config = {
     specs: [
         //'./test/specs/**/*.js',
         //'./test/specs/hh.js',
-        //'./test/specs/userlogins.js',
-        './test/specs/patient.create.js',
+        './test/specs/userlogins.js',
+        //'./test/specs/patient.create.js',
         //'./test/specs/example.e2e.js',
         //'./test/specs/account.activate.js'
+        //'./test/specs/ptntcreate.hhpresent.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -99,7 +100,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://qa.practicecatapult.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

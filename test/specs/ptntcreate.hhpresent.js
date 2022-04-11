@@ -1,4 +1,7 @@
-const accessportal = require('../pageobjects/logins/access.login.page');
+const patient = require('../pageobjects/tc/patientfile');
+const dashboard = require('../pageobjects/dashboard/dashboard');
+const LoginPage = require('../pageobjects/logins/login.page');
+const orthoaccept = require('../pageobjects/logins/access.login.page');
 const hhPage1 = require('../pageobjects/hh/hh.page1');
 const hhPage2 = require('../pageobjects/hh/hh.page2');
 const hhPage3 = require('../pageobjects/hh/hh.page3');
@@ -9,15 +12,40 @@ const hhPage7 = require('../pageobjects/hh/hh.page7');
 const hhPage8 = require('../pageobjects/hh/hh.page8');
 
 
-describe('HH form ', () => {
+
+describe('Login test', () => {
     
     //browser.fullscreenwindow();
-    it('should login with valid credentials to access portal', async () => {
+    
+    it('should login to ', async () => {
         browser.maximizeWindow()
-        browser.url(`/health-history/2b5d071b182544b1b1c15e34c31f6edc/`)
-        //browser.switchWindow();
-        await accessportal.login('9999');
+        browser.url(`/`)
+        await LoginPage.login('mac', 'Mac@123');
         
+        
+    });
+
+    it('should click add patient ', async () => {
+        await dashboard.addp_button();
+        
+    });
+
+    it('should fill patient details ', async () => {
+        
+        await patient.create();
+        
+    });
+
+    it('should click present hh',async() =>{
+        await patient.hhpresent();
+        await browser.pause(5000)
+        const handle = await browser.getWindowHandles()
+        await browser.switchToWindow(handle[1])
+        browser.getUrl()
+    });
+
+    it('Should login to hh', async() =>{
+        await orthoaccept.login('9999');
     });
 
     it('hh page1', async () => {
@@ -58,6 +86,5 @@ describe('HH form ', () => {
         await hhPage8.eight();
     });
 
-    
 
 });

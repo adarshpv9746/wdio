@@ -1,4 +1,4 @@
-const addPatient = require('../pageobjects/tc/add.patient');
+const patient = require('../pageobjects/tc/patientfile');
 const dashboard = require('../pageobjects/dashboard/dashboard');
 const LoginPage = require('../pageobjects/logins/login.page');
 
@@ -7,10 +7,10 @@ describe('Login test', () => {
     
     //browser.fullscreenwindow();
     
-    it('should login to ', async () => {
+    it('should login ', async () => {
         browser.maximizeWindow()
         browser.url(`https://qa.practicecatapult.com/login`)
-        await LoginPage.login('tc@clt.com', 'tc');
+        await LoginPage.login('mac', 'Mac@123');
         
         
     });
@@ -22,10 +22,10 @@ describe('Login test', () => {
 
     it('should fill patient details ', async () => {
         
-        await addPatient.create();
+        await patient.create();
         
     });
-
+    
 
 
 
