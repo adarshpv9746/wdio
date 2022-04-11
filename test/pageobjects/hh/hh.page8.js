@@ -1,4 +1,4 @@
-const helper = require('..//../helpers/helper');
+const helper = require('../../helpers/helper');
 ////////////// PAGE 8 ///////////////
 
 
@@ -14,7 +14,8 @@ class hheight {
         await this.check1.click();
         await this.check2.click();
         await this.sign.click();
-        //await this.submit.click();
+        await 
+        await this.submit.click();
         await browser.pause(4000)
     }
 }
