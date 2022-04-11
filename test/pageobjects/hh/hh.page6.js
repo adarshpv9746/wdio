@@ -1,40 +1,64 @@
-
+const helper = require('..//../helpers/helper');
 ////////////// PAGE 6  //////////////////
 
 
 class hhsix {
-    get physician() { return $("//form[@class='ng-dirty ng-touched ng-invalid']//div[@class='col-5 top-space']//mdl-radio[@class='is-upgraded mdl-radio ng-untouched ng-dirty ng-valid is-checked']/span[@class='mdl-radio__ripple-container mdl-ripple--center']"); }
-    get reason() { return $("//input[@class='mdl-textfield__input ng-pristine ng-valid ng-star-inserted ng-touched']"); }
-    get visit() { return $("//mdl-textfield[@class='left-text-box mdl-textfield is-upgraded mdl-textfield--floating-label ng-pristine ng-invalid ng-touched']//input[@class='mdl-textfield__input ng-pristine ng-valid mbsc-comp ng-star-inserted ng-touched']"); }
-    get set() { return $("//div[@class='mbsc-fr-btn1 mbsc-fr-btn-e mbsc-fr-btn mbsc-active']"); }
-    get dr() { return $("//mdl-textfield[@class='left-text-box mdl-textfield is-upgraded mdl-textfield--floating-label ng-untouched ng-pristine ng-invalid is-focused']//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted']"); }
-    get phone() { return $("//mdl-textfield[@class='left-text-box mdl-textfield is-upgraded mdl-textfield--floating-label ng-untouched ng-pristine ng-invalid is-focused']//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted']"); }
-    get medications() { return $("//div[@class='col-6 top-space']//mdl-radio[@class='is-upgraded mdl-radio ng-untouched ng-dirty ng-valid is-checked']"); }
-    get dosage() { return $("//mdl-textfield[@class='left-text-box mdl-textfield is-upgraded mdl-textfield--floating-label ng-untouched ng-pristine ng-invalid is-focused']//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted']"); }
-    get illness() { return $("//form[@class='ng-dirty ng-touched ng-invalid']/div[4]//mdl-radio[@class='is-upgraded mdl-radio ng-untouched ng-dirty ng-valid is-checked']/span[@class='mdl-radio__ripple-container mdl-ripple--center']"); }
-    get describe() { return $("//mdl-textfield[@class='left-text-box mdl-textfield is-upgraded mdl-textfield--floating-label ng-untouched ng-pristine ng-invalid is-focused']//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted']"); }
-    get trans() { return $("//form[@class='ng-dirty ng-touched ng-invalid']/div[5]//mdl-radio[@class='is-upgraded mdl-radio ng-untouched ng-dirty ng-valid is-checked']/span[@class='mdl-radio__ripple-container mdl-ripple--center']"); }
-    get dates() { return $("//mdl-textfield[@class='left-text-box mdl-textfield is-upgraded mdl-textfield--floating-label ng-untouched ng-pristine ng-invalid is-focused']//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted']"); }
-    get penicilin() { return $("//form[@class='ng-invalid ng-dirty ng-touched']//mdl-checkbox[@class='mdl-checkbox is-upgraded ng-untouched ng-valid is-checked ng-dirty']/span[@class='mdl-checkbox__ripple-container mdl-ripple--center']"); }
-    get cancer() { return $("//form[@class='ng-invalid ng-dirty ng-touched']//div[@class='marigin-top-and-bottom increase-marigin ng-star-inserted']/mdl-checkbox[@class='mdl-checkbox is-upgraded ng-untouched ng-valid is-checked ng-dirty']/span[@class='mdl-checkbox__ripple-container mdl-ripple--center']"); }
-    get next() { return $("//button[@class='mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused']"); }
+    //HH form page 6 elements
+    get physician() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
+    get reason() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[1]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
+    get visit() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[2]/div[1]/div[1]/img[1]"); }
+    get set() { return $(".mbsc-fr-btn1"); }
+    get phy() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[2]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
+    get phone() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[2]/div[3]/mdl-textfield[1]/div[1]/input[1]"); }
+
+    get medications() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
+    get dosage() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[3]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
+
+    get illness() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[4]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
+    get describe() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[4]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
+
+    get trans() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
+    get dates() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[5]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
+
+    get preg() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[6]/div[1]/div[1]/div[2]/mdl-radio[1]/span[4]"); }
+    get nursing() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[6]/div[2]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
+
+    get penicilin() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[7]/div[1]/div[3]/div[1]/mdl-checkbox[1]/span[4]"); }
+    get other() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[8]/div[1]/div[1]/div[1]/mdl-checkbox[1]/span[4]"); }
+    get other1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[8]/div[1]/div[1]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
+    get cancer() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[1]/form[1]/div[9]/div[1]/div[3]/div[1]/mdl-checkbox[1]/span[4]"); }
+    get next() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[6]/form[1]/medical-history[1]/section[1]/div[2]/button[2]"); }
 
     async six() {
+        //await browser.pause(2000)
         await this.physician.click();
-        await this.reason.setValue("hhhhhh");
+        await this.reason.setValue(helper.test_string);
         await this.visit.click();
-        await this.dr.setValue("rrrr");
-        await this.phone.setValue("0000009000");
         await this.set.click();
+        await this.phone.setValue("0000009000");
+        await this.phy.setValue(helper.test_string);
+        await browser.pause(3000)
+
         await this.medications.click();
-        await this.dosage.setValue("u89");
+        await this.dosage.setValue(helper.test_string+89);
+
         await this.illness.click();
-        await this.describe.setValue("u89");
+        await this.describe.setValue(helper.test_string+89);
+
+        await browser.pause(1000)
         await this.trans.click();
-        await this.dates.setValue("u5689");
+        await this.dates.setValue(helper.test_string+5689);
+
+        await this.preg.click();
+        await this.nursing.click();
+
+        //await this.penicilin.scrollIntoView();
         await this.penicilin.click();
+        await this.other.click();
+        await this.other1.setValue(helper.test_string);
         await this.cancer.click();
         await this.next.click();
+        //await browser.pause(7000)
 
 
     }
