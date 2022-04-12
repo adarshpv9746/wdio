@@ -4,7 +4,8 @@ class prac {
     /**
      * define selectors using getter methods
      */
-    user = "csicoet18+"+helper.uid(123456,1000000)+"@gmail.com";
+    username = helper.test_uname
+    email = helper.random_mail
     get prac () {return $("//span[@class='mdl-button__ripple-container']");}
     get p_name () {return $("//input[@name='name']");}
     get no_locns () {return $("//input[@name='no_of_locations']");}
@@ -49,7 +50,7 @@ class prac {
 
         await this.prac.click();
         await this.no_locns.setValue("3");
-        await this.p_name.setValue("automation account");
+        await this.p_name.setValue("Test 13 day mail");
         await this.p_fname.setValue("Test Practice");
         await this.p_lname.setValue("Test Practice");
         await this.p_dlang.click();
@@ -62,9 +63,9 @@ class prac {
         await this.p_sadmn.click();
         await this.p_promo.click();
         await this.p_promocode.click();
-        await this.p_uname.setValue(this.user);
+        await this.p_uname.setValue(this.username);
         await this.p_pass.setValue("Tester@123");
-        await this.p_amail.setValue(this.user);
+        await this.p_amail.setValue(this.email);
         await this.p_smnky.setValue("test.com");
         await this.p_rgale.click();
         //await this.p_inoffp.click();
@@ -83,7 +84,7 @@ class prac {
         await this.p_contact.setValue("9999999999");
         await this.p_currndrop.click();
         await this.p_currncy.click();
-        await this.p_fcemail.setValue(this.user);
+        await this.p_fcemail.setValue(this.email);
         await this.p_add.click();
         await this.p_profile.click();
         await this.p_logout.click();

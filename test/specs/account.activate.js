@@ -11,7 +11,7 @@ describe('orthocatapult', () => {
 
     it('should login with valid credentials', async () => {
         browser.url(`http://qa.practicecatapult.com`)
-        await LoginPage.login('subbill', 'Tester@123');
+        await LoginPage.login('Test19', 'Tester@123');
         browser.pause(200);
         
     });

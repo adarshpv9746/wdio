@@ -25,9 +25,10 @@ exports.config = {
         //'./test/specs/hh.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
-        //'./test/specs/example.e2e.js',
+        './test/specs/newprac.js',
         //'./test/specs/account.activate.js'
-        './test/specs/ptntcreate.hhpresent.js'
+        //'./test/specs/ptntcreate.hhpresent.js',
+        //'./test/specs/payment.js',
     ],
     // Patterns to exclude.
     exclude: [

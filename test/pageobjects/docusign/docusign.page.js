@@ -50,6 +50,9 @@ class activate {
         await browser.pause(1000)     
         await this.sign8.click();
         await this.finish.click();
+        await browser.pause(3000)
+        await expect(browser).toHaveUrlContaining('/cart');
+
     }
 }
 module.exports = new activate
