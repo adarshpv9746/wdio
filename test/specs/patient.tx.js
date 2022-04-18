@@ -47,7 +47,7 @@ describe('Login test', () => {
     });
 
     it('should perform cart payment', async()=>{
-        await cartPage.pay();
+        await cartPage.txpay();
     });
 
 
