@@ -5,16 +5,15 @@ const treatmentplan = require('../pageobjects/tc/treatmentplan');
 const orthoaccept = require('../pageobjects/orthoacccept/orthoaccept');
 const docusignPage = require('../pageobjects/docusign/docusign.page');
 const cartPage = require('../pageobjects/cart/cart.page');
+qaunames = ["ctadmin","master","mac","front","location","doctor"];
+qapaswds = ["Qb@123","Master@123","Mac@123","Tester@123","Location@123", "Doctor@123", ];
 
-
-describe('Login test', () => {
-
-    //browser.fullscreenwindow();
-
-    it('should login ', async () => {
+describe('Tx plan create and approve test :: ', () => {
+    //browser.fullscreenwindow()
+    it('should login as TC - '+qaunames[2], async () => {
         browser.maximizeWindow()
         browser.url(`https://qa.practicecatapult.com/login`)
-        await LoginPage.login('mac', 'Mac@123');
+        await LoginPage.login(qaunames[2], qapaswds[2]);
 
 
     });
@@ -42,13 +41,29 @@ describe('Login test', () => {
         await orthoaccept.startnow();
     });
 
-    it('should sign docusign', async()=>{
+    it('should sign patients docusign', async()=>{
         await docusignPage.tx();
     });
 
     it('should perform cart payment', async()=>{
         await cartPage.txpay();
     });
+
+    it('should login as COO - '+qaunames[1], async () => {
+        browser.url(`https://qa.practicecatapult.com/login`)
+        await LoginPage.login(qaunames[1], qapaswds[1]);
+
+    });
+
+    it('should approve the tx plan with HID - '+patient.v_hid, async()=>{
+        await dashboard.approve(patient.v_hid);
+    });
+
+    it('should sign coo contract', async()=>{
+        await docusignPage.cootx();
+    });
+
+
 
 
 

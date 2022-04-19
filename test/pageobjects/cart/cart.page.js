@@ -4,6 +4,7 @@ class cartpage {
     get card () {return $("/html/body/div/form/span[2]/div/div[2]/span/input");}
     get cardexp () {return $("[name='exp-date']");}
     get cvc () {return $("//input[@name='cvc']");}
+    get coocname(){return $("//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid']");}
     get cname () {return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[1]/div[2]/div[5]/mdl-textfield[1]/div[1]/input[1]");}
     //get pay () {return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[1]/div[2]/div[5]/mdl-button[1]/span[1]");}
     get checkbox() {return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[1]/div[1]/div[9]/mdl-checkbox[1]/span[4]");}
@@ -31,7 +32,7 @@ class cartpage {
         await this.cvc.setValue("123");
         await browser.switchToParentFrame();
         
-        await this.cname.setValue("Robot");
+        await this.coocname.setValue("Robot");
         await browser.pause(100);
         await pay.click();
 

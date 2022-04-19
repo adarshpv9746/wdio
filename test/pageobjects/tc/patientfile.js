@@ -91,7 +91,7 @@ class patient {
     async create() {
         await browser.pause(4000)
         //await this.new.click();
-        await this.f_name.setValue(this.v_f_name);
+        await this.f_name.setValue(this.v_hid);
         await this.m_name.setValue(this.v_m_name);
         await this.l_name.setValue(this.v_l_name);
         await this.plocn.click();

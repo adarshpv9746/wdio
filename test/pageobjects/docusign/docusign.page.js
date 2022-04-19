@@ -26,7 +26,12 @@ class activate {
     get txsign1(){return $("/html/body/div[1]/div[2]/div/section[1]/div/div/div[2]/div[4]/div/section[2]/div[1]/div[1]/div[4]/div/button/div/div/i");}
     get txadopt(){return $("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]/button[2]");}
     get txsign2(){return $("/html/body/div[1]/div[2]/div/section[1]/div/div/div[2]/div[4]/div/section[2]/div[2]/div[1]/div[4]/div/button/div/div/div");}
-    get txfinish(){return $("//button[@id='end-of-document-btn-finish']");}
+    //get txfinish(){return $("//button[@id='end-of-document-btn-finish']");}
+
+    //coo approve
+    get coosign1(){return $("/html[1]/body[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[2]/div[4]/div[1]/section[2]/div[1]/div[1]/div[4]/div[1]/button[1]/div[1]/div[1]/div[1]");}
+    get coosign2(){return $("/html[1]/body[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[2]/div[4]/div[1]/section[2]/div[2]/div[1]/div[4]/div[1]/button[1]/div[1]/div[1]/i[1]");}
+    get canceldown() {return $("/html[1]/body[1]/mdl-dialog-host-component[1]/div[2]/div[1]/div[3]/mdl-button[1]");}
     
     async act() {
 
@@ -79,9 +84,28 @@ class activate {
         //await browser.pause(500);
         await this.txsign2.click();
         await browser.pause(1000);
-        await this.txfinish.click();
+        await this.finish.click();
         await browser.pause(5000);
         await expect(browser).toHaveUrlContaining('/patient-cart/');
+    }
+
+    async cootx(){
+        await browser.pause(10000)
+        await this.txcontinue.click();
+        await browser.pause(1000);
+        //await this.txstart.click();
+        //await browser.pause(500);
+        await this.coosign1.click();
+        await browser.pause(2000);
+
+        await this.coosign2.click();
+        await browser.pause(500);
+        await this.finish.click();
+        await browser.pause(3000);
+        await this.canceldown.click();
+        await browser.pause(5000);
+        await expect(browser).toHaveUrlContaining('/dashboard');
+
     }
 }
 module.exports = new activate
