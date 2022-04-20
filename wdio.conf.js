@@ -1,3 +1,4 @@
+const video = require('wdio-video-reporter');
 exports.config = {
     //
     // ====================
@@ -25,11 +26,12 @@ exports.config = {
         //'./test/specs/hh.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
-        './test/specs/newprac.js',
+        //'./test/specs/newprac.js',
         //'./test/specs/account.activate.js'
         //'./test/specs/ptntcreate.hhpresent.js',
         //'./test/specs/payment.js',
         //'./test/specs/patient.tx.js',
+        './test/specs/basic.js',
     ],
     // Patterns to exclude.
     exclude: [
@@ -140,7 +142,12 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    reporters: [
+        [video, {
+          saveAllVideos: false,       // If true, also saves videos for successful test cases
+          videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        }],
+      ],
 
 
 

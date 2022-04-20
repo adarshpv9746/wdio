@@ -10,7 +10,7 @@ class hheight {
     get submit() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[8]/form[1]/authorisation[1]/section[1]/div[2]/button[2]/span[1]"); }
 
     async eight() {
-        //await browser.pause(3000)
+        await browser.pause(500)
         await this.check1.click();
         await this.check2.click();
         await this.sign.click();
