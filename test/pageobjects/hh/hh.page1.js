@@ -10,12 +10,12 @@ class hhone {
     get city() { return $("[formcontrolname='city'] [placeholder]"); }
 
     get state() { return $("[formcontrolname='state'] [placeholder]"); }
-    get state1() { return $("[ng-reflect-value='Alabama'] .mdl-list__item-primary-content"); }
+    get state1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[1]/form[1]/div[3]/div[2]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]/div[1]"); }
 
     get zipcode() { return $("[formcontrolname='zipcode'] [placeholder]"); }
 
     get country() { return $("[formcontrolname='country'] [placeholder]"); }
-    get country1() { return $("mdl-option:nth-of-type(1) .mdl-list__item-primary-content"); }
+    get country1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[1]/form[1]/div[4]/div[1]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]"); }
 
     get dob() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[1]/form[1]/div[4]/div[3]/div[1]/img[1]"); }
     get dobset() { return $(".mbsc-fr-btn1"); }
@@ -23,7 +23,7 @@ class hhone {
     get ssnumber() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[1]/form[1]/div[4]/div[2]/div[1]/mdl-textfield[1]/div[1]/input[1]"); }
 
     get school() { return $("#mdl-textfield-94"); }
-    get resides() { return $("[ng-reflect-name='resides_with_father'] > .mdl-checkbox__ripple-container"); }
+    get resides() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[1]/form[1]/div[8]/div[1]/div[1]/div[1]/div[1]/mdl-checkbox[1]/span[4]"); }
 
     get next() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[2]/button[1]/span[1]"); }
    

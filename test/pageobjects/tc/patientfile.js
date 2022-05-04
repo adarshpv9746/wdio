@@ -6,7 +6,7 @@ class patient {
     v_l_name = "LBasic"
     v_n_name = "NBasic"
     v_dob = "12/12/2000"
-    v_hid = "AUTO" + helper.uid(123456, 1000000);
+    v_hid = "JOHN" + helper.uid(123456, 1000000);
     //v_hidd = Date.now()
     v_notes = "Basic note"
     v_pfname = "BasicP"
@@ -42,8 +42,8 @@ class patient {
 
     //Responsible Party Contact Info
     get relationship() { return $('/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[3]/div[2]/div[1]/div[2]'); }
-    get rfname() { return $("[ng-reflect-label='First Name'][ng-reflect-klass='required-label'] [placeholder]"); }
-    get rlname() { return $("[ng-reflect-label='Last Name'][ng-reflect-klass='required-label'] [placeholder]"); }
+    get rfname() { return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[3]/div[2]/div[2]/div[1]/mdl-textfield[1]/div[1]/input[1]"); }
+    get rlname() { return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[3]/div[2]/div[3]/div[1]/mdl-textfield[1]/div[1]/input[1]"); }
     get rdob() { return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[3]/div[2]/div[4]/div[1]/div[1]/img[1]"); }
     get rdobset() { return $(".mbsc-fr-btn1"); }
     get rrelation() { return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[3]/div[2]/div[4]/div[2]/mdl-select[1]/div[1]/span[2]"); }
@@ -123,10 +123,9 @@ class patient {
         await this.email.setValue(this.v_cemail);
         await this.con_email.setValue(this.v_cemail);
         await this.number.setValue(this.v_phone);
+        await this.save.scrollIntoView();
         await this.method.click();
         await this.preferd.click();
-
-        await this.save.scrollIntoView();
         await this.save.click();
         //await this.clstoast.click();
         //await browser.saveScreenshot('../../../screenshots/pfile.png');

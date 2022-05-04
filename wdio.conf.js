@@ -24,6 +24,7 @@ exports.config = {
     specs: [
         //'./test/specs/**/*.js',
         //'./test/specs/hh.js',
+        //'./test/specs/docusign.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
         //'./test/specs/newprac.js',
@@ -142,11 +143,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: [
-        [video, {
-          saveAllVideos: false,       // If true, also saves videos for successful test cases
-          videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        }],
+    reporters: ['spec'
+        // [video, {
+        //   saveAllVideos: false,       // If true, also saves videos for successful test cases
+        //   videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        // }],
       ],
 
 

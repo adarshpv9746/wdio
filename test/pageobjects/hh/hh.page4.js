@@ -15,7 +15,7 @@ class hhfour {
     get city() { return $("[formcontrolname='insurance_city'] [placeholder]"); }
 
     get state() { return $("[formcontrolname='insurance_state'] [placeholder]"); }
-    get state1() { return $("[ng-reflect-value='Alabama'] > .mdl-list__item"); }
+    get state1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[4]/form[1]/insurance-information[1]/section[1]/div[1]/form[1]/div[2]/div[4]/div[1]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]"); }
 
     get zip() { return $("[formcontrolname='insurance_zip'] [placeholder]"); }
 
@@ -27,10 +27,10 @@ class hhfour {
     get issuer() { return $("[formcontrolname='insurance_issuer_id'] [placeholder]"); }
 
     get type() { return $("[formcontrolname='insurance_coverage_type'] [placeholder]"); }
-    get type1() { return $("[ng-reflect-value='PPO'] > .mdl-list__item"); }
+    get type1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[4]/form[1]/insurance-information[1]/section[1]/div[1]/form[1]/div[2]/div[6]/div[1]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]/div[1]"); }
 
     get relation() { return $("[formcontrolname='insurance_ph_relation'] [placeholder]"); }
-    get relation1() { return $("[ng-reflect-value='mother'] > .mdl-list__item"); }
+    get relation1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[4]/form[1]/insurance-information[1]/section[1]/div[1]/form[1]/div[2]/div[6]/div[2]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]/div[1]"); }
 
     get fname() { return $("[formcontrolname='insurance_ph_first_name'] [placeholder]"); }
     get mname() { return $("[formcontrolname='insurance_ph_middle_initial'] [placeholder]"); }

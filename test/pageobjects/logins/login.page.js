@@ -24,7 +24,7 @@ class LoginPage {
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);
         await this.btnSubmit.click();
-        await expect(browser).toHaveUrl('https://qa.practicecatapult.com/home/dashboard');
+        await expect(browser).toHaveUrlContaining('/home/dashboard');
     }
 
     

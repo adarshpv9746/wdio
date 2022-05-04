@@ -20,7 +20,7 @@ class hhtwo {
     get city() { return $("[formcontrolname='rp_city'] [placeholder]"); }
 
     get state() { return $("[formcontrolname='rp_state'] .mdl-select__toggle"); }
-    get state1() { return $("[ng-reflect-value='Alabama'] > .mdl-list__item"); }
+    get state1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[2]/form[1]/guardian-info[1]/section[1]/div[1]/form[1]/div[6]/div[1]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]"); }
 
     get zip() { return $("[formcontrolname='rp_zip'] [placeholder]"); }
 

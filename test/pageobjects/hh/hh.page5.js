@@ -12,7 +12,7 @@ class hhfive {
     get next_visit1() { return $(".mbsc-fr-btn1"); }
 
     get family_friend() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[3]/mdl-radio[1]/span[4]"); }
-    get family_friend1() { return $("[ng-reflect-maxlength='28'][placeholder]"); }
+    get family_friend1() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[3]/div[1]/mdl-textfield[1]/div[1]/input[1]"); }
 
     get ph_health() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[4]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
     get parent_concern() { return $("[formcontrolname='parents_concerns_about_orthodontics'] [placeholder]"); }
@@ -21,7 +21,7 @@ class hhfive {
     get visited_orthodontist() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[6]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
     get visited_date() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[6]/div[2]/div[1]/img[1]"); }
     get visited_date1() { return $(".mbsc-fr-btn1"); }
-    get reason() { return $("[ng-reflect-maxlength='84'][placeholder]"); }
+    get reason() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[6]/div[3]/mdl-textfield[1]/div[1]/input[1]"); }
 
     get adenoids() { return $("[formcontrolname='tonsils_or_adenoids_removed'] > .mdl-checkbox__ripple-container"); }
 
@@ -29,14 +29,14 @@ class hhfive {
     get filling2() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[8]/div[1]/div[1]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
     get filling3() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[8]/div[1]/div[1]/div[3]/mdl-textfield[1]/div[1]/input[1]"); }
 
-    get injury_teeth() { return $("[formcontrolname='injury_teeth'] > .mdl-checkbox__ripple-container"); }
-    get brushes_twice() { return $("[ng-reflect-name='brushes_twice_per_day'] > .mdl-checkbox__ripple-container"); }
+    get injury_teeth() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[9]/div[1]/div[1]/div[1]/mdl-checkbox[1]/span[4]"); }
+    get brushes_twice() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[10]/div[1]/div[1]/div[1]/div[1]/mdl-checkbox[1]/span[4]"); }
 
     get speech_problem() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[11]/div[1]/div[1]/div[1]/mdl-radio[1]/span[4]"); }
-    get speech_problem_reason() { return $("[ng-reflect-maxlength='124'][placeholder]"); }
+    get speech_problem_reason() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[11]/div[2]/mdl-textfield[1]/div[1]/input[1]"); }
 
-    get nail_biting() { return $("[ng-reflect-name='nail_biting'] > .mdl-checkbox__ripple-container"); }
-    get oral_cancer() { return $("[ng-reflect-name='oral_cancer'] > .mdl-checkbox__ripple-container"); }
+    get nail_biting() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[12]/div[1]/div[2]/div[1]/div[1]/mdl-checkbox[1]/span[4]"); }
+    get oral_cancer() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[1]/form[1]/div[12]/div[1]/div[2]/div[3]/div[10]/mdl-checkbox[1]/span[4]"); }
 
     get next() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[5]/form[1]/dental-history[1]/section[1]/div[2]/button[2]/span[1]"); }
 

@@ -70,8 +70,7 @@ class activate {
 
     async tx(){
         await browser.pause(15000)
-        await this.txcheck.click();
-        await browser.pause(200)
+        if(await this.txcheck.isDisplayed()){await this.txcheck.click(); await browser.pause(200);};
         await this.txcontinue.click();
         await browser.pause(2000);
         //await this.txstart.click();
@@ -84,7 +83,7 @@ class activate {
         //await browser.pause(500);
         await this.txsign2.click();
         await browser.pause(1000);
-        await this.finish.click();
+        //await this.finish.click();
         await browser.pause(5000);
         await expect(browser).toHaveUrlContaining('/patient-cart/');
     }
