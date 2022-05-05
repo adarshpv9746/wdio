@@ -83,7 +83,7 @@ class activate {
         //await browser.pause(500);
         await this.txsign2.click();
         await browser.pause(1000);
-        //await this.finish.click();
+        await this.finish.click();
         await browser.pause(5000);
         await expect(browser).toHaveUrlContaining('/patient-cart/');
     }

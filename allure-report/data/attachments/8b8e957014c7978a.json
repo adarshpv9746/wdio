@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//mdl-select[@class='mdl-select mdl-select--floating-label ng-untouched ng-dirty ng-valid']//span[@class='mdl-select__toggle material-icons']"
+}

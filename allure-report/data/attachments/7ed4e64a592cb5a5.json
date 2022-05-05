@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=' relation-radio-section flexbox align-center(flex-end)']/mdl-radio[1]/span[@class='mdl-radio__ripple-container mdl-ripple--center']"
+}

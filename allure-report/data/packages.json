@@ -1,16 +1,16 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "orthocatapult practice creation and activation",
+    "name" : "Tx plan create and approve test :: ",
     "children" : [ {
-      "name" : "navigate to practice management",
-      "uid" : "6d9deb0e94758242",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "name" : "should login as TC - mac",
+      "uid" : "59d024d789d1370e",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
       "status" : "passed",
       "time" : {
-        "start" : 1651729694776,
-        "stop" : 1651729695744,
-        "duration" : 968
+        "start" : 1651730367909,
+        "stop" : 1651730377172,
+        "duration" : 9263
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,14 +20,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Add a practice",
-      "uid" : "4b520f03cbfe1645",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "name" : "should click add patient ",
+      "uid" : "e419e67925d75e19",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
       "status" : "passed",
       "time" : {
-        "start" : 1651729695745,
-        "stop" : 1651729714855,
-        "duration" : 19110
+        "start" : 1651730377173,
+        "stop" : 1651730378882,
+        "duration" : 1709
       },
       "flaky" : false,
       "newFailed" : false,
@@ -37,14 +37,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Complete mailinator verification",
-      "uid" : "53579ffd9d32445",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "name" : "should fill patient details ",
+      "uid" : "a473576de12bf8cb",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
       "status" : "passed",
       "time" : {
-        "start" : 1651729714855,
-        "stop" : 1651729737525,
-        "duration" : 22670
+        "start" : 1651730378883,
+        "stop" : 1651730399301,
+        "duration" : 20418
       },
       "flaky" : false,
       "newFailed" : false,
@@ -54,14 +54,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Complete signing the docusign contract",
-      "uid" : "f1f64a3c9b2afbc4",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "name" : "should click create tx plan",
+      "uid" : "4347c1078cd3b3b2",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
       "status" : "passed",
       "time" : {
-        "start" : 1651729743658,
-        "stop" : 1651729780343,
-        "duration" : 36685
+        "start" : 1651730399302,
+        "stop" : 1651730401389,
+        "duration" : 2087
       },
       "flaky" : false,
       "newFailed" : false,
@@ -71,14 +71,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Complete payment",
-      "uid" : "18a7911c4364ab12",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "name" : "Should start tx for a patient",
+      "uid" : "db8c7b985a2d9cee",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
       "status" : "passed",
       "time" : {
-        "start" : 1651729780343,
-        "stop" : 1651729797565,
-        "duration" : 17222
+        "start" : 1651730401390,
+        "stop" : 1651730425493,
+        "duration" : 24103
       },
       "flaky" : false,
       "newFailed" : false,
@@ -88,31 +88,99 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "should login with valid credentials",
-      "uid" : "4649bcf061074b3a",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "name" : "Should navigate to Orthoaccept and start plan",
+      "uid" : "1943998f7ad4b051",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
       "status" : "passed",
       "time" : {
-        "start" : 1651729797565,
-        "stop" : 1651729803049,
-        "duration" : 5484
+        "start" : 1651730425494,
+        "stop" : 1651730429796,
+        "duration" : 4302
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 2,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Add a new user",
-      "uid" : "6b0cb781a09e4359",
-      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
-      "status" : "broken",
+      "name" : "should sign patients docusign",
+      "uid" : "c7e3ad7bdcf410bb",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
+      "status" : "passed",
       "time" : {
-        "start" : 1651729803050,
-        "stop" : 1651729806591,
-        "duration" : 3541
+        "start" : 1651730429796,
+        "stop" : 1651730463434,
+        "duration" : 33638
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "should perform cart payment",
+      "uid" : "d7101aef881ac4e7",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651730463434,
+        "stop" : 1651730476005,
+        "duration" : 12571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "should login as COO - master",
+      "uid" : "abc24d59e3cd3340",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651730476005,
+        "stop" : 1651730485620,
+        "duration" : 9615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "should approve the tx plan with HID - JOHN938003",
+      "uid" : "f9c8fdb1501a685d",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651730485621,
+        "stop" : 1651730493612,
+        "duration" : 7991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "should sign coo contract",
+      "uid" : "a1009b571a38de95",
+      "parentUid" : "207a87df1f0a3426f0b8b3c58e84eae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651730493612,
+        "stop" : 1651730524465,
+        "duration" : 30853
       },
       "flaky" : false,
       "newFailed" : false,
@@ -122,7 +190,7 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     } ],
-    "uid" : "56bff8ab1f57e3f691957561a176f33d"
+    "uid" : "207a87df1f0a3426f0b8b3c58e84eae0"
   } ],
   "name" : "packages"
 }

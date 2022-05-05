@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "48d1d1303e70b02bedcb08ecad518d2e",
-    "name" : "orthocatapult practice creation and activation",
+    "uid" : "d8342949d7a3fee8c9c7769c95765059",
+    "name" : "Tx plan create and approve test :: ",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 7
+      "total" : 11
     }
   } ]
 }
