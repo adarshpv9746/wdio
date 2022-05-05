@@ -2,7 +2,7 @@
 
 
 class activate {
-    get acpop () {return $("//mdl-button[@class='primary mdl-button ng-star-inserted']");}
+    get acpop () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/mat-dialog-container[1]/subscription-act-popup[1]/div[1]/div[4]/mdl-button[2]");}
     get accheck () {return $("//label[@class='cb_label']");}
     get accont () {return $("//button[@id='action-bar-btn-continue']");}
     get sign1 () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[2]/div[4]/div[1]/section[1]/div[1]/div[1]/div[4]/div[12]/button[1]/div[1]/div[1]/div[1]");}

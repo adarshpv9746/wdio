@@ -10,18 +10,18 @@ const adduser = require('../pageobjects/coo/usermgnt.page');
 describe('orthocatapult practice creation and activation', () => {
     //for (let i=0; i<5;i++){
     it('should login with valid credentials', async () => {
-        browser.url(`http://qa.practicecatapult.com`)
+        browser.url(`/`)
         await LoginPage.login("ctadmin", 'Qb@123');
         
     });
 
     it('navigate to practice management', async () => {
-        browser.getUrl();
+        //browser.getUrl();
         await ctdash.add_pract(); 
     });
     
     it('Add a practice', async () => {
-        browser.getUrl();
+        //browser.getUrl();
         await prac.pract();
     });
 
@@ -42,10 +42,10 @@ describe('orthocatapult practice creation and activation', () => {
         await browser.url('/logout')
     });//}
 
-    //it('Add a new user', async () =>{
-    //    broswer.getUrl();
-    //    await adduser.newuser();
-    //});
+    // it('Add a new user', async () =>{
+    //     browser.getUrl();
+    //     await adduser.newuser();
+    // });
 
     
 

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//angular2-multiselect[@name='promocodeList']//div[@class='c-btn']"
+}

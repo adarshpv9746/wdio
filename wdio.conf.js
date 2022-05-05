@@ -1,5 +1,5 @@
-const video = require('wdio-video-reporter');
 exports.config = {
+
     //
     // ====================
     // Runner Configuration
@@ -24,16 +24,18 @@ exports.config = {
     specs: [
         //'./test/specs/**/*.js',
         //'./test/specs/hh.js',
-        //'./test/specs/docusign.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
         //'./test/specs/newprac.js',
+        './test/specs/mailinatorprac.js',
+        //'./test/specs/adduser.js',
         //'./test/specs/account.activate.js'
         //'./test/specs/ptntcreate.hhpresent.js',
         //'./test/specs/payment.js',
         //'./test/specs/patient.tx.js',
-        './test/specs/basic.js',
+        //'./test/specs/basic.js',
     ],
+    services: ['devtools'],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -61,7 +63,23 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-
+        'goog:chromeOptions': {
+            //mobileEmulation: { 'deviceName': 'Nexus 5' },
+            args: ['--no-sandbox',
+                //'--headless',
+                //'--window-position=0,0', 
+                //'--window-size=1,1',
+                '--disable-gpu',
+                '--start-fullscreen',
+                '--disable-notifications',
+                '--use-fake-ui-for-media-stream',
+                'use-fake-device-for-media-stream',
+                'allow-file-access-from-files',
+                '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36']
+            // to run chrome headless the following flags are required
+            // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+            // args: ['--headless', '--disable-gpu'],
+        },
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
@@ -105,7 +123,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://qa.practicecatapult.com',
+    baseUrl: 'http://qa.practicecatapult.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -143,12 +161,9 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'
-        // [video, {
-        //   saveAllVideos: false,       // If true, also saves videos for successful test cases
-        //   videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        // }],
-      ],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+    }],'spec'],
 
 
 
@@ -253,8 +268,11 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: async function (test, context, { error, result, duration, passed, retries }) {
+        if (!passed) {
+            await browser.takeScreenshot();
+        }
+    },
 
 
     /**
@@ -304,6 +322,6 @@ exports.config = {
     * @param {String} oldSessionId session ID of the old session
     * @param {String} newSessionId session ID of the new session
     */
-    //onReload: function(oldSessionId, newSessionId) {
-    //}
+    // onReload: function(oldSessionId, newSessionId) {
+    // }
 }

@@ -14,7 +14,7 @@ describe('HH form ', () => {
     //browser.fullscreenwindow();
     it('should login with valid credentials to access portal', async () => {
         browser.maximizeWindow()
-        browser.url(`https://ortho.practicecatapult.com/health-history/1a54080229c34c0fa7be0a14554dfa90`)
+        browser.url(`/health-history/2b5d071b182544b1b1c15e34c31f6edc/`)
         //browser.switchWindow();
         await accessportal.login('9999');
         

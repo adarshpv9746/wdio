@@ -1,0 +1,71 @@
+[ {
+  "uid" : "f1f64a3c9b2afbc4",
+  "name" : "Complete signing the docusign contract",
+  "time" : {
+    "start" : 1651729743658,
+    "stop" : 1651729780343,
+    "duration" : 36685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53579ffd9d32445",
+  "name" : "Complete mailinator verification",
+  "time" : {
+    "start" : 1651729714855,
+    "stop" : 1651729737525,
+    "duration" : 22670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d9deb0e94758242",
+  "name" : "navigate to practice management",
+  "time" : {
+    "start" : 1651729694776,
+    "stop" : 1651729695744,
+    "duration" : 968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b520f03cbfe1645",
+  "name" : "Add a practice",
+  "time" : {
+    "start" : 1651729695745,
+    "stop" : 1651729714855,
+    "duration" : 19110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4649bcf061074b3a",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1651729797565,
+    "stop" : 1651729803049,
+    "duration" : 5484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b0cb781a09e4359",
+  "name" : "Add a new user",
+  "time" : {
+    "start" : 1651729803050,
+    "stop" : 1651729806591,
+    "duration" : 3541
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18a7911c4364ab12",
+  "name" : "Complete payment",
+  "time" : {
+    "start" : 1651729780343,
+    "stop" : 1651729797565,
+    "duration" : 17222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

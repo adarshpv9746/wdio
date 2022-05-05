@@ -18,20 +18,18 @@ const hhPage6 = require('../pageobjects/hh/hh.page6');
 const hhPage7 = require('../pageobjects/hh/hh.page7');
 const hhPage8 = require('../pageobjects/hh/hh.page8');
 
-//LIVE
-//unames = ["sachinc+1@qburst.com","TestDSO"];
-//paswds = ["987654","Test1234"];
+qaunames = ["ctadmin","master","mac","front","location","doctor"];
+qapaswds = ["Qb@123","Master@123","Mac@123","Tester@123","Location@123", "Doctor@123", ];
 
-//QA
-unames = ["mac","master","ctadmin","front","location","doctor"];
-paswds = ["Mac@123","Master@123","Qb@123","Tester@123","Location@123", "Doctor@123", ];
+uatunames = ["twilio2@qbpractice", "coo@qbcalicut","antc","anpractice"];
+uatpaswds = ["Pa$$w0rd!", "Pa$$w0rd!","Password123@","Password123@"];
 
 describe('Basic-', () => {
     //browser.fullscreenwindow()
-    it('should login as TC - '+unames[0], async () => {
+    it('should login as TC - '+qaunames[2], async () => {
         browser.maximizeWindow()
         browser.url(`/`)
-        await LoginPage.login(unames[0], paswds[0]);
+        await LoginPage.login(qaunames[2], qapaswds[2]);
 
 
     });
@@ -57,11 +55,9 @@ describe('Basic-', () => {
 
     it('Should navigate to Orthoaccept and start plan', async()=>{
         await orthoaccept.startnow();
-        browser.sleep(1000);
     });
 
     it('should sign patients docusign', async()=>{
-        browser.getUrl();
         await docusignPage.tx();
     });
 
@@ -69,9 +65,9 @@ describe('Basic-', () => {
         await cartPage.txpay();
     });
 
-    it('should login as COO - '+unames[1], async () => {
+    it('should login as COO - '+qaunames[1], async () => {
         browser.url(`/login`)
-        await LoginPage.login(unames[1], paswds[1]);
+        await LoginPage.login(qaunames[1], qapaswds[1]);
 
     });
 
@@ -84,9 +80,9 @@ describe('Basic-', () => {
         await browser.url('/logout');
     });
 
-    it('should login as TC - '+unames[0], async () => {
+    it('should login as TC - '+qaunames[2], async () => {
         //browser.url(`/login`)
-        await LoginPage.login(unames[0], paswds[0]);
+        await LoginPage.login(qaunames[2], qapaswds[2]);
 
     });
 
