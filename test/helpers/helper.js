@@ -9,7 +9,12 @@ class helper {
             Math.random() * (max - min + 1) + min
         )
     }
-    
+
+//     async godwait(locator){
+//         while(!(locator.isDisplayed())){
+//             await browser.pause(100);
+//     }
+// }
 }
 
 module.exports = new helper();

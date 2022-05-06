@@ -1,5 +1,5 @@
 
-
+const helper = require('../../helpers/helper');
 
 class activate {
     get acpop () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/mat-dialog-container[1]/subscription-act-popup[1]/div[1]/div[4]/mdl-button[2]");}
@@ -70,6 +70,7 @@ class activate {
 
     async tx(){
         await browser.pause(15000)
+        //helper.godwait(this.txcheck);
         if(await this.txcheck.isDisplayed()){await this.txcheck.click(); await browser.pause(200);};
         await this.txcontinue.click();
         await browser.pause(2000);
