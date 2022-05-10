@@ -10,7 +10,7 @@ class activate {
 
     get printname () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[2]/div[4]/div[1]/section[1]/div[7]/div[1]/div[4]/div[1]/input[1]");}
     get ptitle () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[2]/div[4]/div[1]/section[1]/div[7]/div[1]/div[4]/div[2]/input[1]");}
-    get finish () {return $("//button[@id='end-of-document-btn-finish']");}
+    get finish () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]/button[1]");}
     
     //tx
     get txcheck(){return $("/html[1]/body[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/label[1]");}

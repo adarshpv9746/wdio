@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[@id='end-of-document-btn-finish']"
+}
