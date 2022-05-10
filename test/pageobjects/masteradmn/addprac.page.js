@@ -19,7 +19,7 @@ class prac {
     get p_sadmnslct () {return $("//angular2-multiselect[@name='superadminlist']//div[@class='c-btn']");}
     get p_sadmn () {return $("//label[.='Selma Weeks']");}
     get p_promo () {return $("//angular2-multiselect[@name='promocodeList']//div[@class='c-btn']");}
-    get p_promocode () {return $("/html[1]/body[1]/div[1]/div[2]/div[1]/mat-dialog-container[1]/ng-component[1]/div[1]/div[1]/div[2]/div[5]/div[1]/angular2-multiselect[1]/div[1]/div[2]/div[3]/div[4]/ul[1]/li[1]/label[1]");}
+    get p_promocode () {return $("/html/body/div[1]/div[2]/div/mat-dialog-container/ng-component/section/div[2]/div[3]/div[2]/angular2-multiselect/div/div[2]/div[3]/div[4]/ul/li[1]");}
     get p_uname() {return $("//input[@name='username']");}
     get p_pass () {return $("//input[@name='password']");}
     get p_amail () {return $("//input[@name='email']");}
@@ -49,28 +49,20 @@ class prac {
     async pract () {
 
         await this.prac.click();
-        await this.no_locns.setValue("3");
         await this.p_name.setValue(this.username);
-        await this.p_fname.setValue("Test Practice");
-        await this.p_lname.setValue("Test Practice");
-        await this.p_dlang.click();
-        await this.p_dlang1.click();
-        await this.p_YOB.setValue("1998");
-        //await this.p_YOB.scrollIntoView();
+        await this.no_locns.setValue("3");
         await this.p_tempv.click();
         await this.p_tempv1.click();
+        await this.p_currndrop.click();
+        await this.p_currncy.click();
+        await this.p_dlang.click();
+        await this.p_dlang1.click();
+        await this.p_smnky.setValue("test.com");
         await this.p_sadmnslct.click();
         await this.p_sadmn.click();
         await this.p_promo.click();
         await this.p_promocode.click();
-        await this.p_uname.setValue(this.username);
-        await this.p_pass.setValue("Tester@123");
-        await this.p_amail.setValue(this.email);
-        await this.p_smnky.setValue("test.com");
         await this.p_rgale.click();
-        //await this.p_inoffp.click();
-        await this.p_fcfname.setValue("Test FC");
-        await this.p_fclname.setValue("Test FC");
         await this.p_sa1.setValue("SA1");
         //await this.p_sa2.setValue("SA2");
         await this.p_city.setValue("city");
@@ -81,40 +73,45 @@ class prac {
         await this.p_zip.setValue("99999");
         await this.p_tzdrop.click();
         await this.p_tzone.click();
+
+        await this.p_uname.setValue(this.username);
+        await this.p_pass.setValue("Tester@123");
+        await this.p_amail.setValue(this.email);
+        await this.p_fname.setValue("Test Practice");
+        await this.p_lname.setValue("Test Practice");
+        await this.p_YOB.setValue("1998");
+        //await this.p_YOB.scrollIntoView();
+        //await this.p_inoffp.click();
+        await this.p_fcfname.setValue("Test FC");
+        await this.p_fclname.setValue("Test FC");
+        
         await this.p_contact.setValue("9999999999");
-        await this.p_currndrop.click();
-        await this.p_currncy.click();
+        
         await this.p_fcemail.setValue(this.email);
         await this.p_add.click();
         await this.p_profile.click();
-        await this.p_logout.click();
+        await this.p_logout.click();   
+        
+        
     }
 
     async mailpract () {
 
         await this.prac.click();
-        await this.no_locns.setValue("3");
         await this.p_name.setValue(this.username);
-        await this.p_fname.setValue("Test Practice");
-        await this.p_lname.setValue("Test Practice");
-        await this.p_dlang.click();
-        await this.p_dlang1.click();
-        await this.p_YOB.setValue("1998");
-        //await this.p_YOB.scrollIntoView();
+        await this.no_locns.setValue("3");
         await this.p_tempv.click();
         await this.p_tempv1.click();
+        await this.p_currndrop.click();
+        await this.p_currncy.click();
+        await this.p_dlang.click();
+        await this.p_dlang1.click();
+        await this.p_smnky.setValue("test.com");
         await this.p_sadmnslct.click();
         await this.p_sadmn.click();
         await this.p_promo.click();
         await this.p_promocode.click();
-        await this.p_uname.setValue(this.username);
-        await this.p_pass.setValue("Tester@123");
-        await this.p_amail.setValue(this.username+'@mailinator.com');
-        await this.p_smnky.setValue("test.com");
         await this.p_rgale.click();
-        //await this.p_inoffp.click();
-        await this.p_fcfname.setValue("Test FC");
-        await this.p_fclname.setValue("Test FC");
         await this.p_sa1.setValue("SA1");
         //await this.p_sa2.setValue("SA2");
         await this.p_city.setValue("city");
@@ -125,13 +122,24 @@ class prac {
         await this.p_zip.setValue("99999");
         await this.p_tzdrop.click();
         await this.p_tzone.click();
+
+        await this.p_uname.setValue(this.username);
+        await this.p_pass.setValue("Tester@123");
+        await this.p_amail.setValue(this.username+'@mailinator.com');
+        await this.p_fname.setValue("Test Practice");
+        await this.p_lname.setValue("Test Practice");
+        await this.p_YOB.setValue("1998");
+        //await this.p_YOB.scrollIntoView();
+        //await this.p_inoffp.click();
+        await this.p_fcfname.setValue("Test FC");
+        await this.p_fclname.setValue("Test FC");
+        
         await this.p_contact.setValue("9999999999");
-        await this.p_currndrop.click();
-        await this.p_currncy.click();
+        
         await this.p_fcemail.setValue(this.username+'1@mailinator.com');
         await this.p_add.click();
         await this.p_profile.click();
-        await this.p_logout.click();
+        await this.p_logout.click();  
     }
 }
 
