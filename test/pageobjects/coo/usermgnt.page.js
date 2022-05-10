@@ -33,7 +33,7 @@ class adduser {
     
 
     async newuser() {
-        await browser.pause(200);
+        await browser.pause(1000);
         await this.hamburger.click();
         await browser.pause(200);
         await this.user_manage.click();

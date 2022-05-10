@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html[1]/body[1]/div[1]/main[1]/div[2]/div[3]/div[1]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]\"}\n  (Session info: chrome=100.0.4896.75)",
+  "stacktrace": "#0 0x562131d2d7d3 <unknown>\n#1 0x562131a89688 <unknown>\n#2 0x562131abfc21 <unknown>\n#3 0x562131abfde1 <unknown>\n#4 0x562131af2d74 <unknown>\n#5 0x562131add6dd <unknown>\n#6 0x562131af0a0c <unknown>\n#7 0x562131add5a3 <unknown>\n#8 0x562131ab2ddc <unknown>\n#9 0x562131ab3de5 <unknown>\n#10 0x562131d5e49d <unknown>\n#11 0x562131d7760c <unknown>\n#12 0x562131d60205 <unknown>\n#13 0x562131d77ee5 <unknown>\n#14 0x562131d54070 <unknown>\n#15 0x562131d93488 <unknown>\n#16 0x562131d9360c <unknown>\n#17 0x562131dacc6d <unknown>\n#18 0x7fc9914fa609 <unknown>\n"
+}
