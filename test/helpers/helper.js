@@ -15,6 +15,10 @@ class helper {
 //             await browser.pause(100);
 //     }
 // }
+    async godwait(locator){
+        var a=1;
+        while(a){if(await locator.isDisplayed()){await locator.click(); await browser.pause(200); a=0;}};
+}
 }
 
 module.exports = new helper();
