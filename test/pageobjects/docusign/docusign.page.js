@@ -39,6 +39,7 @@ class activate {
         await this.acpop.click();
         await browser.pause(15000)
         if(await this.accheck.isDisplayed()){await this.accheck.click(); await browser.pause(200);};
+        await browser.pause(200)
         await this.accont.click();
         await browser.pause(2000)
         //await this.sign1.waitForDisplayed({ timeout: 10000 });

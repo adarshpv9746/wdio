@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='mdl-textfield is-upgraded']/span[@class='mdl-select__toggle material-icons']"
+}

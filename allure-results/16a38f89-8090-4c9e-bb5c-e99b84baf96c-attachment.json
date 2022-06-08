@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='all-cases view-all-case-studies scroll-style']/div[1]//span[@class='mdl-checkbox__ripple-container mdl-ripple--center']"
+}

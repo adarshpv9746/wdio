@@ -18,18 +18,23 @@ const hhPage6 = require('../pageobjects/hh/hh.page6');
 const hhPage7 = require('../pageobjects/hh/hh.page7');
 const hhPage8 = require('../pageobjects/hh/hh.page8');
 
-qaunames = ["ctadmin","master","mac","front","location","doctor"];
-qapaswds = ["Qb@123","Master@123","Mac@123","Tester@123","Location@123", "Doctor@123", ];
+unames = ["master","mac","ctadmin","front","location","doctor"];
+paswds = ["Master@123","Mac@123","Qb@123","Tester@123","Location@123", "Doctor@123", ];
 
-uatunames = ["twilio2@qbpractice", "coo@qbcalicut","antc","anpractice"];
-uatpaswds = ["Pa$$w0rd!", "Pa$$w0rd!","Password123@","Password123@"];
+//unames = ["twilio2@qbpractice", "coo@qbcalicut","antc","anpractice"];
+//paswds = ["Pa$$w0rd!", "Pa$$w0rd!","Password123@","Password123@"];
+
+//unames = ["TestDSO","sachinc+1@qburst.com"]
+//paswds = ["Test1234","987654"]
+
+
 
 describe('Basic-', () => {
     //browser.fullscreenwindow()
-    it('should login as TC - '+qaunames[2], async () => {
-        browser.maximizeWindow()
+    it('should login as TC - '+unames[1], async () => {
+        //browser.maximizeWindow()
         browser.url(`/`)
-        await LoginPage.login(qaunames[2], qapaswds[2]);
+        await LoginPage.login(unames[1], paswds[1]);
 
 
     });
@@ -65,9 +70,9 @@ describe('Basic-', () => {
         await cartPage.txpay();
     });
 
-    it('should login as COO - '+qaunames[1], async () => {
+    it('should login as COO - '+unames[0], async () => {
         browser.url(`/login`)
-        await LoginPage.login(qaunames[1], qapaswds[1]);
+        await LoginPage.login(unames[0], paswds[0]);
 
     });
 
@@ -80,9 +85,9 @@ describe('Basic-', () => {
         await browser.url('/logout');
     });
 
-    it('should login as TC - '+qaunames[2], async () => {
+    it('should login as TC - '+unames[1], async () => {
         //browser.url(`/login`)
-        await LoginPage.login(qaunames[2], qapaswds[2]);
+        await LoginPage.login(unames[1], paswds[1]);
 
     });
 
@@ -140,7 +145,6 @@ describe('Basic-', () => {
     it('hh page 8', async () => {
         browser.getUrl();
         await hhPage8.eight();
-        await browser.saveScreenshot('/home/qburst/Desktop/orthocatapult/wdio/test/screenshots/hhsuccess.png');
     });
 
 

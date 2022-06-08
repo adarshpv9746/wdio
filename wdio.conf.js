@@ -28,12 +28,13 @@ exports.config = {
         //'./test/specs/patient.create.js',
         //'./test/specs/newprac.js',
         //'./test/specs/mailinatorprac.js',
-        './test/specs/adduser.js',
+        //'./test/specs/adduser.js',
         //'./test/specs/account.activate.js'
         //'./test/specs/ptntcreate.hhpresent.js',
         //'./test/specs/payment.js',
         //'./test/specs/patient.tx.js',
-        //'./test/specs/basic.js',
+        './test/specs/basic.js',
+        //'./test/specs/login.js'
     ],
     services: ['devtools'],
     // Patterns to exclude.

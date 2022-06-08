@@ -14,7 +14,7 @@ describe('HH form ', () => {
     //browser.fullscreenwindow();
     it('should login with valid credentials to access portal', async () => {
         browser.maximizeWindow()
-        browser.url(`/health-history/2b5d071b182544b1b1c15e34c31f6edc/`)
+        browser.url(`/health-history/1df7789dbcb0472ebca7324e73a01035/`)
         //browser.switchWindow();
         await accessportal.login('9999');
         

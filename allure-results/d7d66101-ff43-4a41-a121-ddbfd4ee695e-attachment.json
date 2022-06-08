@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='common-date-field']//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted']"
+}
