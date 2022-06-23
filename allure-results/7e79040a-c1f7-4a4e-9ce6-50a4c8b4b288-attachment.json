@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//mdl-tabs[@class='tab-right tab-head-padding pricing-section mdl-tabs is-upgraded ng-star-inserted']/div[@class='mdl-tabs__tab-bar']"
+}

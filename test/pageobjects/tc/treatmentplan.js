@@ -76,8 +76,8 @@ class plan {
         await this.txcat.click();
         await this.txcat3.click();
         //await this.txcat
-        await this.txsubcat.click();
-        await this.txsubcat1.click();
+        if(this.txsubcat.isVisible()){await this.txsubcat.click();await this.txsubcat1.click();}
+        
         await this.pinsrnc.click();
         await this.pinsrnc2.click();
         await this.pmaxcov.setValue(this.v_pmaxcov);

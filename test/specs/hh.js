@@ -13,8 +13,8 @@ describe('HH form ', () => {
     
     //browser.fullscreenwindow();
     it('should login with valid credentials to access portal', async () => {
-        browser.maximizeWindow()
-        browser.url(`/health-history/1df7789dbcb0472ebca7324e73a01035/`)
+        //browser.maximizeWindow()
+        browser.url(` /health-history/ba702d241fe74c78ae1d16958560e940/`)
         //browser.switchWindow();
         await accessportal.login('9999');
         
@@ -56,6 +56,8 @@ describe('HH form ', () => {
     it('hh page 8', async () => {
         browser.getUrl();
         await hhPage8.eight();
+        browser.pause(1000);
+        
     });
 
     

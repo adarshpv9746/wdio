@@ -7,7 +7,7 @@ class ctdash {
     get add_btn(){return $("/html/body/my-app/div[2]/ng-component/ng-component/div/div[3]/div[2]/mdl-card/div[2]/div[2]/mdl-button");}
     get search_approve() {return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/ng-component[1]/div[1]/div[3]/div[5]/mdl-card[1]/div[2]/div[2]/div[1]/mdl-textfield[1]/div[1]/input[1]");}
     get accept_btn(){return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/ng-component[1]/div[1]/div[3]/div[5]/mdl-card[1]/table[1]/tbody[1]/tr[1]/td[8]/mdl-button[1]");}
-    get accept_pname_clm(){return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/ng-component[1]/div[1]/div[3]/div[2]/div[2]/mdl-card[1]/split-combo-graph[1]/report-title[1]/div[1]/h2[1]");}
+    get accept_pname_clm(){return $("/html/body/my-app/div[2]/ng-component/ng-component/div/div[3]/div[2]/div[2]");}
     get search_pat(){return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/ng-component[1]/div[1]/div[3]/div[2]/mdl-card[1]/div[2]/div[3]/div[1]/mdl-textfield[1]/div[1]/input[1]");}
     get click_pat(){return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/ng-component[1]/div[1]/div[3]/div[2]/mdl-card[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]");}
     /**
@@ -25,7 +25,7 @@ class ctdash {
     };
 
     async approve(hid){
-        await browser.pause(100);
+        await browser.pause(500);
         await this.accept_pname_clm.scrollIntoView();
         await browser.pause(200);
         await this.search_approve.setValue(hid);

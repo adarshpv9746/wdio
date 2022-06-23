@@ -23,7 +23,7 @@ exports.config = {
     //
     specs: [
         //'./test/specs/**/*.js',
-        //'./test/specs/hh.js',
+        './test/specs/hh.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
         //'./test/specs/newprac.js',
@@ -33,7 +33,7 @@ exports.config = {
         //'./test/specs/ptntcreate.hhpresent.js',
         //'./test/specs/payment.js',
         //'./test/specs/patient.tx.js',
-        './test/specs/basic.js',
+        //'./test/specs/basic.js',
         //'./test/specs/login.js'
     ],
     services: ['devtools'],
@@ -124,7 +124,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://qa.practicecatapult.com',
+    baseUrl: 'http://uat.practicecatapult.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

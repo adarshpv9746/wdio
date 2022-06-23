@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='all-cases view-all-case-studies scroll-style']/div[1]//span[@class='mdl-checkbox__ripple-container mdl-ripple--center']\"}\n  (Session info: chrome=100.0.4896.75)",
+  "stacktrace": "#0 0x55c1045a47d3 <unknown>\n#1 0x55c104300688 <unknown>\n#2 0x55c104336c21 <unknown>\n#3 0x55c104336de1 <unknown>\n#4 0x55c104369d74 <unknown>\n#5 0x55c1043546dd <unknown>\n#6 0x55c104367a0c <unknown>\n#7 0x55c1043545a3 <unknown>\n#8 0x55c104329ddc <unknown>\n#9 0x55c10432ade5 <unknown>\n#10 0x55c1045d549d <unknown>\n#11 0x55c1045ee60c <unknown>\n#12 0x55c1045d7205 <unknown>\n#13 0x55c1045eeee5 <unknown>\n#14 0x55c1045cb070 <unknown>\n#15 0x55c10460a488 <unknown>\n#16 0x55c10460a60c <unknown>\n#17 0x55c104623c6d <unknown>\n#18 0x7ffb6a893609 <unknown>\n"
+}

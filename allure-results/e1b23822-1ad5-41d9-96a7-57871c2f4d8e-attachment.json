@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='insurance-section row']//mdl-select[@class='mdl-select mdl-select--floating-label ng-untouched ng-valid ng-dirty']//span[@class='mdl-select__toggle material-icons']"
+}

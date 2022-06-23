@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[formcontrolname='tonsils_or_adenoids_removed'] > .mdl-checkbox__ripple-container"
+}
