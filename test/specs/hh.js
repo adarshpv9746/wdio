@@ -14,7 +14,7 @@ describe('HH form ', () => {
     //browser.fullscreenwindow();
     it('should login with valid credentials to access portal', async () => {
         //browser.maximizeWindow()
-        browser.url(` /health-history/ba702d241fe74c78ae1d16958560e940/`)
+        browser.url(`https://uat.practicecatapult.com/health-history/1f0ba9b0b6d2483a9ad2877cd4e365ba/`)
         //browser.switchWindow();
         await accessportal.login('9999');
         

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@name='no_of_locations']"
+}

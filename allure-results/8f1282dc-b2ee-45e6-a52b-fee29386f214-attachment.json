@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[1]/form/patient-information/section/div[1]/form/div[1]/div[2]/div/mdl-textfield/div/input"
+}

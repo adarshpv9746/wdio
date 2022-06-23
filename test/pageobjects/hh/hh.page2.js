@@ -56,7 +56,7 @@ class hhtwo {
         await this.country.click();
         await this.country1.click();
 
-        await this.phone.setValue("8765443354");
+        await this.phone.setValue("8765449999");
         await this.email.setValue(helper.test_mail);
         await this.employer.setValue(helper.test_string);
         await this.occupation.setValue(helper.test_string);

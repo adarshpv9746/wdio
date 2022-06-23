@@ -34,7 +34,8 @@ exports.config = {
         //'./test/specs/payment.js',
         //'./test/specs/patient.tx.js',
         //'./test/specs/basic.js',
-        //'./test/specs/login.js'
+        //'./test/specs/login.js',
+        //'./test/specs/orthoconnect.js'
     ],
     services: ['devtools'],
     // Patterns to exclude.
@@ -124,7 +125,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://uat.practicecatapult.com',
+    baseUrl: 'http://qa.practicecatapult.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

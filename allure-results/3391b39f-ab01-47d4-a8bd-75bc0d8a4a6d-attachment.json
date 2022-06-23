@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[formcontrolname='rp_state'] .mdl-select__toggle"
+}

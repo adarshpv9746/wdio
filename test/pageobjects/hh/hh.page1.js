@@ -4,6 +4,7 @@ const helper = require('../../helpers/helper');
 class hhone {
     //HH form page 1 elements
     get pfname() { return $("[formcontrolname='first_name'] [placeholder]"); }
+    get pmname() {return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[1]/form/patient-information/section/div[1]/form/div[1]/div[2]/div/mdl-textfield/div/input");}
     get plname() { return $("[formcontrolname='last_name'] [placeholder]"); }
     get gender() { return $("/html/body/my-app/div/ng-component/div[2]/mat-horizontal-stepper/div[2]/div[1]/form/patient-information/section/div[1]/form/div[2]/div[1]/div/div/div[2]/mdl-radio/span[4]"); }
     get streetadd() { return $("[formcontrolname='home_addr'] [placeholder]"); }
@@ -26,12 +27,13 @@ class hhone {
     get resides() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[1]/form[1]/div[8]/div[1]/div[1]/div[1]/div[1]/mdl-checkbox[1]/span[4]"); }
 
     get next() { return $("/html[1]/body[1]/my-app[1]/div[1]/ng-component[1]/div[2]/mat-horizontal-stepper[1]/div[2]/div[1]/form[1]/patient-information[1]/section[1]/div[2]/button[1]/span[1]"); }
-   
+
 
     async one() {
 
-        await this.pfname.setValue(helper.test_string);
-        await this.plname.setValue(helper.test_string);
+        await this.pfname.setValue(helper.test_string+'first');
+        await this.pmname.setValue(helper.test_string+'middle');
+        await this.plname.setValue(helper.test_string+'last');
         await this.gender.click();
         await this.streetadd.setValue(helper.test_string);
         await this.city.setValue(helper.test_string);

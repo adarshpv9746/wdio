@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[ng-reflect-maxlength='32'][placeholder]"
+}
