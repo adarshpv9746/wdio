@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='common-card personal-detail-section']//div[@class='two']//input[@class='mdl-textfield__input']"
+}

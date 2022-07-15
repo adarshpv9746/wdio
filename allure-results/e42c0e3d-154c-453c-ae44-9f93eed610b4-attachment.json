@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='row options-checkbox-section']//mdl-checkbox[@class='mdl-checkbox is-upgraded ng-untouched ng-pristine ng-valid is-checked']/span[@class='mdl-checkbox__ripple-container mdl-ripple--center']"
+}
