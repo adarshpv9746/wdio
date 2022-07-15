@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#username\"}\n  (Session info: chrome=100.0.4896.75)",
-  "stacktrace": "#0 0x55e78c95b7d3 <unknown>\n#1 0x55e78c6b7688 <unknown>\n#2 0x55e78c6edc21 <unknown>\n#3 0x55e78c6edde1 <unknown>\n#4 0x55e78c720d74 <unknown>\n#5 0x55e78c70b6dd <unknown>\n#6 0x55e78c71ea0c <unknown>\n#7 0x55e78c70b5a3 <unknown>\n#8 0x55e78c6e0ddc <unknown>\n#9 0x55e78c6e1de5 <unknown>\n#10 0x55e78c98c49d <unknown>\n#11 0x55e78c9a560c <unknown>\n#12 0x55e78c98e205 <unknown>\n#13 0x55e78c9a5ee5 <unknown>\n#14 0x55e78c982070 <unknown>\n#15 0x55e78c9c1488 <unknown>\n#16 0x55e78c9c160c <unknown>\n#17 0x55e78c9dac6d <unknown>\n#18 0x7ff0546a2609 <unknown>\n"
-}

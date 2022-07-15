@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "[formcontrolname='person_to_release_appointment'] [placeholder]"
-}

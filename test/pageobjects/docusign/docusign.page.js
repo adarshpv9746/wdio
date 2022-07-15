@@ -92,12 +92,15 @@ class activate {
 
     async cootx(){
         await browser.pause(10000)
+        if(await this.txcheck.isDisplayed()){await this.txcheck.click(); await browser.pause(200);};
         await this.txcontinue.click();
         await browser.pause(1000);
         //await this.txstart.click();
         //await browser.pause(500);
         await this.coosign1.click();
         await browser.pause(2000);
+        
+        if(await this.txadopt.isDisplayed()){await this.txadopt.click(); await browser.pause(2000);};
 
         await this.coosign2.click();
         await browser.pause(500);

@@ -23,7 +23,7 @@ exports.config = {
     //
     specs: [
         //'./test/specs/**/*.js',
-        './test/specs/hh.js',
+        //'./test/specs/hh.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
         //'./test/specs/newprac.js',
@@ -32,7 +32,9 @@ exports.config = {
         //'./test/specs/account.activate.js'
         //'./test/specs/ptntcreate.hhpresent.js',
         //'./test/specs/payment.js',
-        //'./test/specs/patient.tx.js',
+        //'./test/specs/patient.txaccept.js',
+        //'./test/specs/patient.txapprove.js',
+        './test/specs/patient.cooapprove.js',
         //'./test/specs/basic.js',
         //'./test/specs/login.js',
         //'./test/specs/orthoconnect.js'

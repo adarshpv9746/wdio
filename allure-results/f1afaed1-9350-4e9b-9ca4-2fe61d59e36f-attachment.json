@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//mdl-radio[1]/span[@class='mdl-radio__ripple-container mdl-ripple--center']"
-}

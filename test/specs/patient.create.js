@@ -2,6 +2,8 @@ const patient = require('../pageobjects/tc/patientfile');
 const dashboard = require('../pageobjects/dashboard/dashboard');
 const LoginPage = require('../pageobjects/logins/login.page');
 
+qaunames = ["ctadmin", "mac", "master", "litetc", "onelite@mailinator.com"];
+qapaswds = ["Qb@123", "Mac@123", "Master@123", "Tester@123", "Location@123"];
 
 describe('Login test', () => {
     

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//input[@class='mdl-textfield__input ng-untouched ng-pristine ng-star-inserted ng-valid']"
-}

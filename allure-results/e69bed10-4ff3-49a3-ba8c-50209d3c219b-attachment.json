@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class='common-card detail-section']//mdl-select[@class='mdl-select mdl-select--floating-label ng-untouched ng-valid ng-dirty']//input[@class='mdl-textfield__input']"
-}

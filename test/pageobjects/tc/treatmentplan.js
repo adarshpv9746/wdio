@@ -78,13 +78,13 @@ class plan {
         //await this.txcat
         if(this.txsubcat.isVisible()){await this.txsubcat.click();await this.txsubcat1.click();}
         
-        await this.pinsrnc.click();
-        await this.pinsrnc2.click();
-        await this.pmaxcov.setValue(this.v_pmaxcov);
+        // await this.pinsrnc.click();
+        // await this.pinsrnc2.click();
+        // await this.pmaxcov.setValue(this.v_pmaxcov);
         //await this.pmaxpcnt.setValue(this.v_pmaxpcnt);
-        await this.sinsrnc.click();
-        await this.sinsrnc2.click();
-        await this.smaxcov.setValue(this.v_smaxcov);
+        // await this.sinsrnc.click();
+        // await this.sinsrnc2.click();
+        // await this.smaxcov.setValue(this.v_smaxcov);
         // await smaxpcnt.setValue(this.v_smaxpcnt);
         await this.viewall.scrollIntoView();
         await browser.pause(100);

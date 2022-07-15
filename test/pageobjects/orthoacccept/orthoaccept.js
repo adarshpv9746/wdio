@@ -10,7 +10,7 @@ class file {
      * e.g. to login using username and password
      */
     async startnow () {
-        await this.LTR.click();
+        //await this.LTR.click();
         await this.stratnow.click();
         await this.approve.click();
        

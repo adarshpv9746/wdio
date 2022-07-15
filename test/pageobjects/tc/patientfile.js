@@ -6,7 +6,7 @@ class patient {
     v_l_name = "LBasic"
     v_n_name = "NBasic"
     v_dob = "12/12/2000"
-    v_hid = "JOHN" + helper.uid(123456, 1000000);
+    v_hid = "WEESELY" + helper.uid(123456, 1000000);
     //v_hidd = Date.now()
     v_notes = "Basic note"
     v_pfname = "BasicP"
@@ -67,6 +67,7 @@ class patient {
     get doc () { return $("//div[@class='common-card detail-section']//mdl-select[@class='mdl-select mdl-select--floating-label ng-untouched ng-valid ng-dirty']//input[@class='mdl-textfield__input']");}
     get doc1 () { return $("//mdl-option[1]//div[@class='mdl-list__item-primary-content']");}
     get plocn () { return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[2]/div[2]/div[1]/mdl-select[1]/div[1]/input[1]");} 
+    get plcon1 (){ return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[2]/div[2]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]/div[1]");}
     get plocn2 () { return $("/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[2]/div[2]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[2]/div[1]/div[1]");}
     //save pfile
     get save(){return $("/html/body/my-app/div[2]/ng-component/div[3]/div[2]/mdl-button[4]/span");}
@@ -95,7 +96,8 @@ class patient {
         await this.m_name.setValue(this.v_m_name);
         await this.l_name.setValue(this.v_l_name);
         await this.plocn.click();
-        await this.plocn2.click();
+        await this.plcon1.click();
+        //await this.plocn2.click();
         await this.dob.setValue(this.v_dob);
         await this.h_id.setValue(this.v_hid);
         await this.gen.click();

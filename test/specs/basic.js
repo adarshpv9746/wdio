@@ -18,11 +18,11 @@ const hhPage6 = require('../pageobjects/hh/hh.page6');
 const hhPage7 = require('../pageobjects/hh/hh.page7');
 const hhPage8 = require('../pageobjects/hh/hh.page8');
 
-//unames = ["master","mac","ctadmin","front","location","doctor"];
-//paswds = ["Master@123","Mac@123","Qb@123","Tester@123","Location@123", "Doctor@123", ];
+unames = ["master","mac","ctadmin","front","location","doctor"];
+paswds = ["Master@123","Mac@123","Qb@123","Tester@123","Location@123", "Doctor@123", ];
 
-unames = ["coo@qbcalicut","twilio2@qbpractice","antc","anpractice"];
-paswds = ["Pa$$w0rd!", "Pa$$w0rd!","Password123@","Password123@"];
+//unames = ["coo@qbcalicut","twilio2@qbpractice","antc","anpractice"];
+//paswds = ["Pa$$w0rd!", "Pa$$w0rd!","Password123@","Password123@"];
 
 //unames = ["TestDSO","sachinc+1@qburst.com"]
 //paswds = ["Test1234","987654"]

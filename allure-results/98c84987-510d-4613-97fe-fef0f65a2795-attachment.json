@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/my-app/div[1]/ng-component/div[2]/div[2]/div[1]/div/div[1]/mdl-radio/span[4]\"}\n  (Session info: chrome=100.0.4896.75)",
-  "stacktrace": "#0 0x556500bb07d3 <unknown>\n#1 0x55650090c688 <unknown>\n#2 0x556500942c21 <unknown>\n#3 0x556500942de1 <unknown>\n#4 0x556500975d74 <unknown>\n#5 0x5565009606dd <unknown>\n#6 0x556500973a0c <unknown>\n#7 0x5565009605a3 <unknown>\n#8 0x556500935ddc <unknown>\n#9 0x556500936de5 <unknown>\n#10 0x556500be149d <unknown>\n#11 0x556500bfa60c <unknown>\n#12 0x556500be3205 <unknown>\n#13 0x556500bfaee5 <unknown>\n#14 0x556500bd7070 <unknown>\n#15 0x556500c16488 <unknown>\n#16 0x556500c1660c <unknown>\n#17 0x556500c2fc6d <unknown>\n#18 0x7f047feee609 <unknown>\n"
-}

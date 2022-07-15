@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class='center-contents']/div[@class='two ng-star-inserted']//input[@class='mdl-textfield__input']"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "[formcontrolname='insurance_ph_deductible'] [placeholder]"
-}
