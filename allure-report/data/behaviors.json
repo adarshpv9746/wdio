@@ -1,5 +1,39 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
-  "name" : "behaviors"
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should login with valid credentials",
+    "uid" : "f0c648f1d270e10d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1658743625224,
+      "stop" : 1658743632408,
+      "duration" : 7184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-100.0.4896.75" ]
+  }, {
+    "name" : "Complete signing the docusign contract",
+    "uid" : "5bcaa8c121aed458",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1658743632411,
+      "stop" : 1658743667633,
+      "duration" : 35222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-100.0.4896.75" ]
+  } ]
 }

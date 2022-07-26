@@ -1,1 +1,21 @@
-[ ]
+[ {
+  "uid" : "5bcaa8c121aed458",
+  "name" : "Complete signing the docusign contract",
+  "time" : {
+    "start" : 1658743632411,
+    "stop" : 1658743667633,
+    "duration" : 35222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0c648f1d270e10d",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1658743625224,
+    "stop" : 1658743632408,
+    "duration" : 7184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

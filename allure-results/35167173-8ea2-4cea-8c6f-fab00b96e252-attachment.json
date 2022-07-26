@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "/html[1]/body[1]/my-app[1]/div[2]/ng-component[1]/div[3]/div[1]/div[2]/div[2]/div[1]/mdl-select[1]/div[1]/mdl-popover[1]/div[1]/mdl-option[1]/div[1]/div[1]"
-}

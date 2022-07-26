@@ -36,16 +36,16 @@ describe('orthocatapult practice creation and activation', () => {
         await docusign.act();
     });
 
-    // it('Complete payment', async () => {
+    it('Complete payment', async () => {
         
-    //     await cart.pay();
-    //     await browser.url('/logout')
-    // });//}
+        await cart.pay();
+        await browser.url('/logout')
+    });//}
 
-    // it('Add a new user', async () =>{
-    //     browser.getUrl();
-    //     await adduser.newuser();
-    // });
+    it('Add a new user', async () =>{
+        browser.getUrl();
+        await adduser.newuser();
+    });
 
     
 

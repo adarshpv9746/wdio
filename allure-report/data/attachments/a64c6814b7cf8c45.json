@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[.='Adopt and Initial']\"}\n  (Session info: chrome=100.0.4896.75)",
+  "stacktrace": "#0 0x55a21f6a97d3 <unknown>\n#1 0x55a21f405688 <unknown>\n#2 0x55a21f43bc21 <unknown>\n#3 0x55a21f43bde1 <unknown>\n#4 0x55a21f46ed74 <unknown>\n#5 0x55a21f4596dd <unknown>\n#6 0x55a21f46ca0c <unknown>\n#7 0x55a21f4595a3 <unknown>\n#8 0x55a21f42eddc <unknown>\n#9 0x55a21f42fde5 <unknown>\n#10 0x55a21f6da49d <unknown>\n#11 0x55a21f6f360c <unknown>\n#12 0x55a21f6dc205 <unknown>\n#13 0x55a21f6f3ee5 <unknown>\n#14 0x55a21f6d0070 <unknown>\n#15 0x55a21f70f488 <unknown>\n#16 0x55a21f70f60c <unknown>\n#17 0x55a21f728c6d <unknown>\n#18 0x7f6540fe9609 <unknown>\n"
+}

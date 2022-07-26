@@ -6,14 +6,14 @@ const orthoaccept = require('../pageobjects/orthoacccept/orthoaccept');
 const docusignPage = require('../pageobjects/docusign/docusign.page');
 const cartPage = require('../pageobjects/cart/cart.page');
 
-qaunames = ["ctadmin","litetc", "onelite@mailinator.com","protc","pro15","tiertc","tier","testtc","testi92","enterprisetc","enterprisemn","enterall","enterprac","sup_coo1_tc1","sup_coo1","alaskatc1","enteralaska"];
+qaunames = ["ctadmin","tester76tc","tester76","litetc", "onelite@mailinator.com","protc","pro15","tiertc","tier","testtc","testi92","enterprisetc","enterprisemn","enterall","enterprac","sup_coo1_tc1","sup_coo1","alaskatc1","enteralaska"];
 qapaswds = ["Qb@123", "Tester@123"];
 //
 // qaunames = ["ctadmin", "mac", "master", "front", "location", "doctor"];
 // qapaswds = ["Qb@123", "Mac@123", "Master@123", "Tester@123", "Location@123", "Doctor@123",];
 
 describe('Tx plan create and approve test :: ', () => {
-    for(let i=0; i<qaunames.length; i=i+2){
+    for(let i=0; i<qaunames.length-1; i=i+2){
         let a = i + 1;
         let b = i + 2;
         //browser.fullscreenwindow()

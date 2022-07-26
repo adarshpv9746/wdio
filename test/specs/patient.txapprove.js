@@ -9,13 +9,15 @@ const cartPage = require('../pageobjects/cart/cart.page');
 qaunames = ["ctadmin","litetc","protc","tiertc","testtc","enterprisetc","enterall","sup_coo1_tc1","alaskatc1"];
 qapaswds = ["Qb@123","Tester@123"];
 //testi92::tcname is  (docusign issue)
+qaunames = ["ctadmin","alaskatc1","enteralaska"]
+qapaswds = ["Qb@123","Tester@123"];
 
 // qaunames = ["ctadmin","master","mac","front","location","doctor"];
 // qapaswds = ["Qb@123","Master@123","Mac@123","Tester@123","Location@123", "Doctor@123", ];
 i=0;
 describe('Tx plan create and approve test :: ', () => {
     //browser.fullscreenwindow()
-    for(let i=0; i<qaunames.length; i++){
+    for(let i=0; i<qaunames.length; i=i++){
         let a = i + 1;
         let b = i + 2;
         //browser.fullscreenwindow()
