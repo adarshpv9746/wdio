@@ -10,7 +10,7 @@ class ctdash {
      * e.g. to login using username and password
      */
     async add_pract () {
-        await browser.pause(200);
+        await browser.pause(1000);
         await this.hamburger.click();
         await this.pract.click();
     }

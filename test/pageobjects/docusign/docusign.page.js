@@ -45,7 +45,7 @@ class activate {
         //await this.sign1.waitForDisplayed({ timeout: 10000 });
         await this.sign1.click();
         await browser.pause(2000)
-        if(await this.signbut.isDisplayed()){await this.signbut.click(); await browser.pause(200);};
+        if(await this.signbut.isDisplayed()){await this.signbut.click(); await browser.pause(2000);};
         //await browser.pause(2000)
         await this.sign2.click();
         await browser.pause(1000)

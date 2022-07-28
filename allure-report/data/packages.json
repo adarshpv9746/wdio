@@ -1,17 +1,16 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
-    "name" : "orthocatapult",
+    "name" : "orthocatapult practice creation and activation",
     "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "f0c648f1d270e10d",
-      "parentUid" : "a51daae4ef8d284d47449a540d3e0fb6",
+      "name" : "navigate to practice management",
+      "uid" : "dc45bc702f1df655",
+      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
       "status" : "passed",
       "time" : {
-        "start" : 1658743625224,
-        "stop" : 1658743632408,
-        "duration" : 7184
+        "start" : 1658999485509,
+        "stop" : 1658999486754,
+        "duration" : 1245
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,14 +20,65 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     }, {
-      "name" : "Complete signing the docusign contract",
-      "uid" : "5bcaa8c121aed458",
-      "parentUid" : "a51daae4ef8d284d47449a540d3e0fb6",
+      "name" : "Add a practice",
+      "uid" : "f724d884155820a9",
+      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
       "status" : "passed",
       "time" : {
-        "start" : 1658743632411,
-        "stop" : 1658743667633,
-        "duration" : 35222
+        "start" : 1658999486755,
+        "stop" : 1658999504664,
+        "duration" : 17909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "819bf3a924ce2e95",
+      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658999504664,
+        "stop" : 1658999510176,
+        "duration" : 5512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Complete signing the docusign contract",
+      "uid" : "8262b88123602a6a",
+      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658999510176,
+        "stop" : 1658999548516,
+        "duration" : 38340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Complete payment",
+      "uid" : "a9266deb5d113cf4",
+      "parentUid" : "56bff8ab1f57e3f691957561a176f33d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658999548520,
+        "stop" : 1658999554818,
+        "duration" : 6298
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,6 +88,7 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-100.0.4896.75" ]
     } ],
-    "uid" : "a51daae4ef8d284d47449a540d3e0fb6"
-  } ]
+    "uid" : "56bff8ab1f57e3f691957561a176f33d"
+  } ],
+  "name" : "packages"
 }

@@ -42,10 +42,10 @@ describe('orthocatapult practice creation and activation', () => {
         await browser.url('/logout')
     });//}
 
-    it('Add a new user', async () =>{
-        browser.getUrl();
-        await adduser.newuser();
-    });
+    // it('Add a new user', async () =>{
+    //     browser.getUrl();
+    //     await adduser.newuser();
+    // });
 
     
 

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//mdl-button[@class='primary mdl-button']/span[@class='mdl-button__ripple-container']"
+}

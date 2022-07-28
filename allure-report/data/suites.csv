@@ -1,3 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jul 25 15:37:05 IST 2022","Mon Jul 25 15:37:12 IST 2022","7184","","orthocatapult","","orthocatapult","should login with valid credentials","should login with valid credentials",""
-"passed","Mon Jul 25 15:37:12 IST 2022","Mon Jul 25 15:37:47 IST 2022","35222","","orthocatapult","","orthocatapult","Complete signing the docusign contract","Complete signing the docusign contract",""
+"passed","Thu Jul 28 14:41:50 IST 2022","Thu Jul 28 14:42:28 IST 2022","38340","","orthocatapult practice creation and activation","","orthocatapult practice creation and activation","Complete signing the docusign contract","Complete signing the docusign contract",""
+"passed","Thu Jul 28 14:41:44 IST 2022","Thu Jul 28 14:41:50 IST 2022","5512","","orthocatapult practice creation and activation","","orthocatapult practice creation and activation","should login with valid credentials","should login with valid credentials",""
+"passed","Thu Jul 28 14:41:25 IST 2022","Thu Jul 28 14:41:26 IST 2022","1245","","orthocatapult practice creation and activation","","orthocatapult practice creation and activation","navigate to practice management","navigate to practice management",""
+"broken","Thu Jul 28 14:42:28 IST 2022","Thu Jul 28 14:42:34 IST 2022","6298","","orthocatapult practice creation and activation","","orthocatapult practice creation and activation","Complete payment","Complete payment",""
+"passed","Thu Jul 28 14:41:26 IST 2022","Thu Jul 28 14:41:44 IST 2022","17909","","orthocatapult practice creation and activation","","orthocatapult practice creation and activation","Add a practice","Add a practice",""

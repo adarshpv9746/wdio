@@ -1,20 +1,50 @@
 [ {
-  "uid" : "5bcaa8c121aed458",
-  "name" : "Complete signing the docusign contract",
+  "uid" : "a9266deb5d113cf4",
+  "name" : "Complete payment",
   "time" : {
-    "start" : 1658743632411,
-    "stop" : 1658743667633,
-    "duration" : 35222
+    "start" : 1658999548520,
+    "stop" : 1658999554818,
+    "duration" : 6298
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f724d884155820a9",
+  "name" : "Add a practice",
+  "time" : {
+    "start" : 1658999486755,
+    "stop" : 1658999504664,
+    "duration" : 17909
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f0c648f1d270e10d",
+  "uid" : "8262b88123602a6a",
+  "name" : "Complete signing the docusign contract",
+  "time" : {
+    "start" : 1658999510176,
+    "stop" : 1658999548516,
+    "duration" : 38340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "819bf3a924ce2e95",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1658743625224,
-    "stop" : 1658743632408,
-    "duration" : 7184
+    "start" : 1658999504664,
+    "stop" : 1658999510176,
+    "duration" : 5512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc45bc702f1df655",
+  "name" : "navigate to practice management",
+  "time" : {
+    "start" : 1658999485509,
+    "stop" : 1658999486754,
+    "duration" : 1245
   },
   "status" : "passed",
   "severity" : "normal"

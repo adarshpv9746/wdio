@@ -1,0 +1,252 @@
+{
+  "uid" : "a9266deb5d113cf4",
+  "name" : "Complete payment",
+  "fullName" : "orthocatapult practice creation and activation.Complete payment",
+  "historyId" : "dcee7dce62d1f9df69d870b69841e048",
+  "time" : {
+    "start" : 1658999548520,
+    "stop" : 1658999554818,
+    "duration" : 6298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "stale element reference: element is not attached to the page document\n                  (Session info: chrome=100.0.4896.75)",
+  "statusTrace" : "stale element reference: stale element reference: element is not attached to the page document\n                  (Session info: chrome=100.0.4896.75)\n                    at getErrorFromResponseBody (/home/qburst/node_modules/webdriver/build/utils.js:197:12)\n                    at NodeJSRequest._request (/home/qburst/node_modules/webdriver/build/request/index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (/home/qburst/node_modules/@wdio/utils/build/shim.js:137:29)\n                    at async cartpage.pay (/home/qburst/Desktop/orthocatapult/wdio/test/pageobjects/cart/cart.page.js:23:9)\n                    at async Context.<anonymous> (/home/qburst/Desktop/orthocatapult/wdio/test/specs/newprac.js:41:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "stale element reference: element is not attached to the page document\n                  (Session info: chrome=100.0.4896.75)",
+    "statusTrace" : "stale element reference: stale element reference: element is not attached to the page document\n                  (Session info: chrome=100.0.4896.75)\n                    at getErrorFromResponseBody (/home/qburst/node_modules/webdriver/build/utils.js:197:12)\n                    at NodeJSRequest._request (/home/qburst/node_modules/webdriver/build/request/index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (/home/qburst/node_modules/@wdio/utils/build/shim.js:137:29)\n                    at async cartpage.pay (/home/qburst/Desktop/orthocatapult/wdio/test/pageobjects/cart/cart.page.js:23:9)\n                    at async Context.<anonymous> (/home/qburst/Desktop/orthocatapult/wdio/test/specs/newprac.js:41:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1658999553523,
+        "stop" : 1658999553554,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dfa64c05dec836a",
+        "name" : "Request",
+        "source" : "3dfa64c05dec836a.json",
+        "type" : "application/json",
+        "size" : 120
+      }, {
+        "uid" : "e31daaa9e5048742",
+        "name" : "Response",
+        "source" : "e31daaa9e5048742.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1658999553558,
+        "stop" : 1658999553571,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53c1a6f3ef07793b",
+        "name" : "Request",
+        "source" : "53c1a6f3ef07793b.json",
+        "type" : "application/json",
+        "size" : 127
+      }, {
+        "uid" : "de42161e69c0ce06",
+        "name" : "Response",
+        "source" : "de42161e69c0ce06.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1658999553573,
+        "stop" : 1658999553591,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd99d526218f6af0",
+        "name" : "Request",
+        "source" : "dd99d526218f6af0.json",
+        "type" : "application/json",
+        "size" : 127
+      }, {
+        "uid" : "237fdc99be66c1bb",
+        "name" : "Response",
+        "source" : "237fdc99be66c1bb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1658999553593,
+        "stop" : 1658999553616,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4417880a2b8f453",
+        "name" : "Request",
+        "source" : "a4417880a2b8f453.json",
+        "type" : "application/json",
+        "size" : 106
+      }, {
+        "uid" : "57a090928cdfe258",
+        "name" : "Response",
+        "source" : "57a090928cdfe258.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1658999553618,
+        "stop" : 1658999553651,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1890dadc335c57aa",
+        "name" : "Request",
+        "source" : "1890dadc335c57aa.json",
+        "type" : "application/json",
+        "size" : 3621
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1658999554653,
+        "stop" : 1658999554818,
+        "duration" : 165
+      },
+      "status" : "broken",
+      "statusMessage" : "stale element reference: stale element reference: element is not attached to the page document\n                  (Session info: chrome=100.0.4896.75)\n                    at getErrorFromResponseBody (/home/qburst/node_modules/webdriver/build/utils.js:197:12)\n                    at NodeJSRequest._request (/home/qburst/node_modules/webdriver/build/request/index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async Browser.wrapCommandFn (/home/qburst/node_modules/@wdio/utils/build/shim.js:137:29)\n                    at async cartpage.pay (/home/qburst/Desktop/orthocatapult/wdio/test/pageobjects/cart/cart.page.js:23:9)\n                    at async Context.<anonymous> (/home/qburst/Desktop/orthocatapult/wdio/test/specs/newprac.js:41:9)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1658999554676,
+          "stop" : 1658999554816,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "648afa32f149e821",
+          "name" : "Screenshot",
+          "source" : "648afa32f149e821.png",
+          "type" : "image/png",
+          "size" : 61347
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "1358c6f1f79d7c44",
+        "name" : "Request",
+        "source" : "1358c6f1f79d7c44.json",
+        "type" : "application/json",
+        "size" : 3628
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "orthocatapult practice creation and activation"
+  }, {
+    "name" : "testClass",
+    "value" : "orthocatapult practice creation and activation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Complete payment"
+  }, {
+    "name" : "package",
+    "value" : "orthocatapult practice creation and activation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a9266deb5d113cf4.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

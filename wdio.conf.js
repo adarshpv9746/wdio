@@ -26,10 +26,10 @@ exports.config = {
         //'./test/specs/hh.js',
         //'./test/specs/userlogins.js',
         //'./test/specs/patient.create.js',
-        //'./test/specs/newprac.js',
+        './test/specs/newprac.js',
         //'./test/specs/mailinatorprac.js',
         //'./test/specs/adduser.js',
-        './test/specs/account.activate.js'
+        //'./test/specs/account.activate.js'
         //'./test/specs/ptntcreate.hhpresent.js',
         //'./test/specs/payment.js',
         //'./test/specs/patient.txaccept.js',

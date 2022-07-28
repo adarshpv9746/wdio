@@ -1,5 +1,5 @@
 {
-  "2698a4cb2d0966c56aeafeaa5e0a2427" : {
+  "6211d9fe538d71d5ddf25e79288c5dff" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,16 +9,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5bcaa8c121aed458",
+      "uid" : "819bf3a924ce2e95",
       "status" : "passed",
       "time" : {
-        "start" : 1658743632411,
-        "stop" : 1658743667633,
-        "duration" : 35222
+        "start" : 1658999504664,
+        "stop" : 1658999510176,
+        "duration" : 5512
       }
     } ]
   },
-  "479d35c275d0d08a3d0e2774ba533f87" : {
+  "dcee7dce62d1f9df69d870b69841e048" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9266deb5d113cf4",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n                  (Session info: chrome=100.0.4896.75)",
+      "time" : {
+        "start" : 1658999548520,
+        "stop" : 1658999554818,
+        "duration" : 6298
+      }
+    } ]
+  },
+  "1ef49bdeca98d3ef6a3fed3fa98cd41" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,12 +48,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0c648f1d270e10d",
+      "uid" : "f724d884155820a9",
       "status" : "passed",
       "time" : {
-        "start" : 1658743625224,
-        "stop" : 1658743632408,
-        "duration" : 7184
+        "start" : 1658999486755,
+        "stop" : 1658999504664,
+        "duration" : 17909
+      }
+    } ]
+  },
+  "903ecfd623b7aade169359438dac1804" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc45bc702f1df655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658999485509,
+        "stop" : 1658999486754,
+        "duration" : 1245
+      }
+    } ]
+  },
+  "2bf3525d78a85aa72161c034d5d082d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8262b88123602a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658999510176,
+        "stop" : 1658999548516,
+        "duration" : 38340
       }
     } ]
   }

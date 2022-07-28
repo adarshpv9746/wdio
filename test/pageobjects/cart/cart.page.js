@@ -19,8 +19,6 @@ class cartpage {
         //await browser.pause(2000);
         await browser.switchToFrame(frame1);
         await browser.pause(1000);
-        await this.card.setValue("4111 1111 1111 1111");
-        await browser.switchToParentFrame();
 
         await browser.switchToFrame(frame2);
         await browser.pause(1000);
@@ -33,6 +31,9 @@ class cartpage {
         await browser.switchToParentFrame();
         
         await this.coocname.setValue("Robot");
+
+        await this.card.setValue("4111 1111 1111 1111");
+        await browser.switchToParentFrame();
         await browser.pause(100);
         await pay.click();
 
